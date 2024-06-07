@@ -41,19 +41,18 @@ body {
 .container-fluid {
     width: 100%;
 }
-
 .container {
     width: 100%;
-    max-width: 1188px;
+    max-width: 1150px;
     margin: 0 auto;
     padding: 0 10px;
 }
-
 .row {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+<<<<<<< HEAD
 
 
 .col-3 {
@@ -71,13 +70,192 @@ body {
 }
 
 .announcement_bar {
+=======
+.position-relative{
+    position: relative;
+}
+.d-flex{
+    display: flex;
+}
+.announcement_bar{
+>>>>>>> 5035551617f51cc509be9900a9dc909750b6ed78
     background-color: #396393;
     color: #ffffff;
     padding: 12px 0;
     text-align: center;
 }
-
-/* banner section */
+.announcebar_remove-btn{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+}
+.announcebar_remove-btn,
+.logo img{
+    cursor: pointer;
+}
+.serach_input:focus{
+    outline: none;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.logo{
+    width: 130px;
+    padding-right: 20px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.navbar{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: flex;
+    align-items: center;
+}
+.navbar ul li:nth-child(2), .navbar ul li:nth-child(3){
+    border-right: 1px solid #8f8f8f;
+    padding: 8px 20px 8px 0;
+}
+.serach_input_block{
+    width: 50%;
+    border: 1px solid #8f8f8f;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.serach_input_block svg{
+    padding-top: 6px;
+}
+.serach_input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 28px;
+}
+.switch input {
+    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #396393;
+    border: 1px solid #396393;
+    transition: .2s;
+    border-radius: 30px;
+    color: #ffffff;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    top: 50%;
+    right: 2px;
+    transform: translate(0, -50%);
+    background-color: #ffffff;
+    transition: .4s;
+}
+.slider::after{
+    content: 'Inc.GST';
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+}
+input:checked + .slider:before {
+    transform: translate(-54px, -50%);
+}
+input:checked + .slider::after{
+    opacity: 0;
+}
+input:checked + .slider {
+    background-color: #595959;
+}
+.cart_count{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2px;
+    right: 16px;
+    background-color: #f69708;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 50%;
+}
+.btn-reg-sign{
+    padding: 4px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'jost';
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.btn-reg{
+    margin-right: 10px;
+    background-color: #cfcfcf;
+    color: #000000;
+}
+.btn-sign{
+    background-color: #000000;
+    color: #ffffff;
+}
+.header-fixed{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.header-fixed ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    border: 1px solid #d1d1d1;
+}
+.header-fixed ul li a{
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+}
+.header-fixed ul li a:hover{
+    color: #396393;
+    text-decoration: underline;
+}
 .banner-section {
     padding: 65px 0;
 }
@@ -103,6 +281,7 @@ body {
     font-weight: 500;
     color: rgb(17 17 17 / 80%);
     line-height: 43px;
+<<<<<<< HEAD
     transform: translateX(-50%);
     width: max-content;
 }
@@ -389,4 +568,7 @@ nav {
     .banner-block {
         width: 100%;
     }
+=======
+    position: relative;
+>>>>>>> 5035551617f51cc509be9900a9dc909750b6ed78
 }
