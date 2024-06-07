@@ -530,6 +530,29 @@ input:checked + .slider {
     font-weight: bold;
 }
 
+
+/* blog post css by shreyu */
+.page_main-banner{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.page_main-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sub-banner_block{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000071;
+}
+
+
+
 @media screen and (max-width: 1024px) {
     .logo {
         width: 100px;
