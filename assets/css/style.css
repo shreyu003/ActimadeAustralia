@@ -102,16 +102,13 @@ nav {
     padding: 12px 0;
     justify-content: space-between;
 }
-<<<<<<< HEAD
-
 .logo {
     width: 130px;
-=======
+}
 .logo{
     width: 110px;
 }
 .logo:nth-child(1){
->>>>>>> 5f3e300d0fdcc881594094b3b0765d9792b8b0d6
     padding-right: 20px;
 }
 
@@ -120,14 +117,11 @@ nav {
     height: 100%;
     object-fit: contain;
 }
-<<<<<<< HEAD
-
 .navbar {
     width: 70%;
-=======
+}
 .navbar{
     width: 65%;
->>>>>>> 5f3e300d0fdcc881594094b3b0765d9792b8b0d6
     display: flex;
     align-items: center;
 }
@@ -143,18 +137,12 @@ nav {
     display: flex;
     align-items: center;
 }
-<<<<<<< HEAD
-
 .navbar ul li:nth-child(2),
 .navbar ul li:nth-child(3) {
     border-right: 1px solid #8f8f8f;
     padding: 8px 20px 8px 0;
 }
-
-.serach_input_block {
-=======
 .serach_input_block{
->>>>>>> 5f3e300d0fdcc881594094b3b0765d9792b8b0d6
     width: 50%;
     border: 1px solid #8f8f8f;
     border-radius: 6px;
