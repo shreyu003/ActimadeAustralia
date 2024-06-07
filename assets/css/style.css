@@ -52,25 +52,13 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-<<<<<<< HEAD
-
-
-.col-3 {
-    width: 32%;
-}
-
 .d-flex {
     display: flex;
 }
-
-/* cursor pointer */
 .announcebar_remove-btn,
 .product-tablinks {
     cursor: pointer;
 }
-
-.announcement_bar {
-=======
 .position-relative{
     position: relative;
 }
@@ -78,7 +66,6 @@ body {
     display: flex;
 }
 .announcement_bar{
->>>>>>> 5035551617f51cc509be9900a9dc909750b6ed78
     background-color: #396393;
     color: #ffffff;
     padding: 12px 0;
@@ -281,7 +268,6 @@ input:checked + .slider {
     font-weight: 500;
     color: rgb(17 17 17 / 80%);
     line-height: 43px;
-<<<<<<< HEAD
     transform: translateX(-50%);
     width: max-content;
 }
@@ -568,7 +554,4 @@ nav {
     .banner-block {
         width: 100%;
     }
-=======
-    position: relative;
->>>>>>> 5035551617f51cc509be9900a9dc909750b6ed78
 }
