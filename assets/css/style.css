@@ -55,7 +55,10 @@ body {
 .d-flex {
     display: flex;
 }
+<<<<<<< HEAD
 /* cursor pointer */
+=======
+>>>>>>> 7e0cf2de383799d0c1b9d21e3d072b450901267b
 .announcebar_remove-btn,
 .product-tablinks {
     cursor: pointer;
