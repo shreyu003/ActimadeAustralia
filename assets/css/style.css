@@ -54,16 +54,29 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+<<<<<<< HEAD
 
 .col-3 {
     width: 32%;
 }
 
 .announcement_bar {
+=======
+.d-flex{
+    display: flex;
+}
+/* cursor pointer */
+.announcebar_remove-btn{
+    cursor: pointer;
+}
+
+.announcement_bar{
+>>>>>>> ba9e5303ac847fd9b2ebc20ecc8dd10e6de1f2d9
     background-color: #396393;
     color: #ffffff;
-    padding: 15px 0;
+    padding: 12px 0;
     text-align: center;
+<<<<<<< HEAD
 }
 
 /* banner section */
@@ -92,4 +105,16 @@ body {
     font-weight: 500;
     color: rgb(17 17 17 / 80%);
     line-height: 43px;
+=======
+    position: relative;
+}
+.announcebar_remove-btn{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+}
+nav{
+    padding: 20px 0;
+>>>>>>> ba9e5303ac847fd9b2ebc20ecc8dd10e6de1f2d9
 }
