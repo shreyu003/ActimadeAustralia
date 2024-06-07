@@ -70,6 +70,7 @@ body {
     color: #ffffff;
     padding: 12px 0;
     text-align: center;
+    position: relative;
 }
 .announcebar_remove-btn{
     position: absolute;
@@ -461,18 +462,18 @@ nav {
 }
 
 .header-fixed {
-    border-top: 1px solid #d1d1d1;
     display: flex;
     justify-content: center;
     background-color: #ffffff;
+    padding: 10px 0;
 }
 
 .header-fixed ul {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 15px 50px;
 }
 
 .header-fixed ul li a {
