@@ -42,8 +42,7 @@ body {
     width: 100%;
 }
 .container {
-    width: 100%;
-    max-width: 1150px;
+    width: 90%;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -89,11 +88,13 @@ nav{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 12px 0;
     justify-content: space-between;
 }
 .logo{
-    width: 130px;
+    width: 110px;
+}
+.logo:nth-child(1){
     padding-right: 20px;
 }
 .logo img{
@@ -102,7 +103,7 @@ nav{
     object-fit: contain;
 }
 .navbar{
-    width: 70%;
+    width: 65%;
     display: flex;
     align-items: center;
 }
@@ -115,10 +116,6 @@ nav{
 .navbar ul li{
     display: flex;
     align-items: center;
-}
-.navbar ul li:nth-child(2), .navbar ul li:nth-child(3){
-    border-right: 1px solid #8f8f8f;
-    padding: 8px 20px 8px 0;
 }
 .serach_input_block{
     width: 50%;
@@ -198,8 +195,8 @@ input:checked + .slider {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 2px;
-    right: 16px;
+    top: -6px;
+    right: -6px;
     background-color: #f69708;
     color: #ffffff;
     font-size: 12px;
@@ -284,12 +281,6 @@ input:checked + .slider {
     right: 20px;
     transform: translate(0, -50%);
 }
-
-nav {
-    padding: 20px 0;
-}
-
-/* Category Section */
 
 .category-section {
     padding: 40px 0 60px 0;
@@ -473,7 +464,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px;
+    padding: 10px 50px;
 }
 
 .header-fixed ul li a {
@@ -537,6 +528,27 @@ nav {
     font-size: 16px;
     color: #ffffff;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        width: 100px;
+    }
+    .logo:nth-child(1) {
+        padding-right: 10px;
+    }
+    .navbar {
+        width: 70%;
+    }
+    .serach_input_block {
+        width: 40%;
+    }
+    .cart_count {
+        width: 16px;
+        height: 16px;
+        top: -4px;
+        right: -4px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
