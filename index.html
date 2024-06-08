@@ -7,8 +7,8 @@
     <title> Actimade Australia Home </title>
     <link rel="shortcut icon" href="./assets/Images/Favicon/favicon" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/PlugIn/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -58,12 +58,12 @@
     </section>
     <section class="banner-section">
         <div class="container">
-            <div class="banner-inner">
-                <a href="#" class="banner-block">
+            <div class="row">
+                <a href="#" class="banner-block col-8">
                     <img src="./assets/images/homepage/banner-1.png" alt="Banner Image" class="banner-img">
                     <div class="banner-text">Contour Pillow</div>
                 </a>
-                <a href="#" class="banner-block">
+                <a href="#" class="banner-block col-4">
                     <img src="./assets/images/homepage/banner-2.png" alt="Banner Image" class="banner-img">
                     <div class="banner-text">Massage Balls</div>
                 </a>
@@ -232,22 +232,21 @@
                 </div>
                 <div>
                     <div class="product-tab">
-                        <button id="defaultOpen" class="product-tablinks" onclick="openCity(event, 'best-seller')">Best
-                            Seller</button>
-                        <button class="product-tablinks" onclick="openCity(event, 'popular')">Popular</button>
-                        <button class="product-tablinks" onclick="openCity(event, 'top-rated')">Top Rated</button>
+                        <button id="defaultOpen" class="product-tablinks">Best Seller</button>
+                        <button class="product-tablinks">Popular</button>
+                        <button class="product-tablinks">Top Rated</button>
                     </div>
                 </div>
             </div>
             <div>
                 <div class="product-tab-content">
                     <div id="best-seller" class="product-tabcontent">
-                        <div class="product-content-inner">
-                            <div>
+                        <div class="row">
+                            <div class="col-4">
                                 <img src="./assets/images/homepage/saller-banner.png" alt="saller banner"
                                     class="saller-banner">
                             </div>
-                            <div class="product-inner">
+                            <div class="product-inner col-8">
                                 <a href="#" class="product-block">
                                     <div class="product-img-block">
                                         <img src="./assets/images/homepage/pr-1.png" alt="Product Image"
@@ -520,7 +519,7 @@
                     <div>
                         <div class="pr-category-name">Massage Creams..</div>
                         <h3 class="product-name fw-500 mb-1">Paraffin
-                        Soft White</h3>
+                            Soft White</h3>
                         <h3 class="product-price">AUD $24.75</h3>
                     </div>
                 </a>
@@ -529,7 +528,6 @@
             </div>
     </section>
     <script src="./assets/PlugIn/swiper/swiper-bundle.min.js"></script>
-
     <script src="./assets/script/common.js"></script>
 </body>
 
