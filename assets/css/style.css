@@ -102,7 +102,10 @@ nav {
     padding: 12px 0;
     justify-content: space-between;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b8263f7afd80e8b2fe0f93b4cb05a063b532d0c3
 .logo {
     width: 130px;
 }
@@ -118,7 +121,10 @@ nav {
     height: 100%;
     object-fit: contain;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b8263f7afd80e8b2fe0f93b4cb05a063b532d0c3
 .navbar {
     width: 70%;
 }
@@ -139,13 +145,19 @@ nav {
     display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b8263f7afd80e8b2fe0f93b4cb05a063b532d0c3
 .navbar ul li:nth-child(2),
 .navbar ul li:nth-child(3) {
     border-right: 1px solid #8f8f8f;
     padding: 8px 20px 8px 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b8263f7afd80e8b2fe0f93b4cb05a063b532d0c3
 .serach_input_block{
     width: 50%;
     border: 1px solid #8f8f8f;
@@ -653,8 +665,31 @@ input:checked+.slider {
     width: 100%;
     height: 100%;
     background-color: #00000071;
+    display: flex;
+    align-items: center;
 }
-
+.sub-banner_block p{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.section-space{
+    padding: 50px 0 25px;
+}
+.col-8{
+    width: 66%;    
+}
+.col-4{
+    width: 33%;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.blog-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
 
 
 @media screen and (max-width: 1024px) {
