@@ -932,8 +932,6 @@ label {
     background-color: #a0a0a0;
 }
 
-<<<<<<< HEAD
-=======
 label {
     text-align: left;
     margin-bottom: 10px;
@@ -942,8 +940,6 @@ label {
 .subtitle {
     font-size: 1.1rem;
 }
-
->>>>>>> ea37361c68a9cca2a9b4c36521082887de131766
 .form-input {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -963,18 +959,15 @@ label {
     border: 2px solid #D9D9D9;
     border-radius: 3px;
 }
-
-<<<<<<< HEAD
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-=======
+}
 .input-field::-webkit-outer-spin-button,
 .input-field::-webkit-inner-spin-button {
   -webkit-appearance: none;
  margin: 0;
->>>>>>> ea37361c68a9cca2a9b4c36521082887de131766
 }
 
 textarea {
