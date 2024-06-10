@@ -465,10 +465,6 @@ input:checked+.slider {
 .product-tab-content {
     margin: 70px 0;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 1cae93ba546ec54a5df7e7c4231300632be4d6e7
 .product-content-inner {
     display: flex;
     gap: 20px;
@@ -828,7 +824,13 @@ label {
     text-transform: capitalize;
     font-size: 14px;
     color: #000;
+    margin-right: 10px;
 }
+
+.buttons{
+    padding: 20px 0;
+}
+
 .checkout-btn:hover {
     background-color: #a0a0a0;
 }
@@ -916,7 +918,7 @@ select {
 }
 
 .product-images{
-    width: ;
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
