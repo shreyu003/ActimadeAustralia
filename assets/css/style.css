@@ -429,10 +429,6 @@ input:checked+.slider {
 .product-tab-content {
     margin: 70px 0;
 }
-<<<<<<< HEAD
-    
-=======
->>>>>>> a610dedc750773e73a25dbbbe5059de12b400283
 
 .product-content-inner {
     display: flex;
@@ -808,8 +804,8 @@ label {
     margin-bottom: 10px;
 }
 
-.fotgot-password{
-    margin-top: 30px;
+.forgot-password{
+    padding: 20px 0;
 }
 
 .forgot-password a {
@@ -912,6 +908,15 @@ select {
 .register-content{
     width: 50%;
     margin: auto;
+}
+
+.product {
+    display: flex;
+    gap: 30px;
+}
+
+.product-images{
+    width: ;
 }
 
 @media screen and (max-width: 1024px) {
