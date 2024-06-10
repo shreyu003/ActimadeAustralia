@@ -429,6 +429,10 @@ input:checked+.slider {
 .product-tab-content {
     margin: 70px 0;
 }
+<<<<<<< HEAD
+    
+=======
+>>>>>>> a610dedc750773e73a25dbbbe5059de12b400283
 
 .product-content-inner {
     display: flex;
@@ -768,6 +772,185 @@ input:checked+.slider {
     margin: auto;
 }
 
+.subtitle {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+.signin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.form-container, .checkout {
+    border: 2px solid #D9D9D9;
+    padding: 20px;
+    width: 50%;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.form-input {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding: 10px;
+    background-color: #F4F4F4;
+    border: 2px solid #D9D9D9;
+    border-radius: 3px;
+}
+
+::placeholder {
+    text-transform: capitalize;
+    color: #969696;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: blue;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout p {
+    margin: 5px 0;
+}
+
+.btn {
+    background-color: #335985;
+    color: #ffffff;
+    border: 1px solid #335985;
+    border-radius: 25px;
+    padding: 6px 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.btn1 {
+    background-color: #C6C6C6;
+    border: 1px solid #C6C6C6;
+    border-radius: 25px;
+    padding: 6px 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(26, 59, 96);
+}
+.btn1:hover {
+    background-color: #a0a0a0;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin-top: 0;
+}
+
+.form-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding: 0px;
+    background-color: #F4F4F4;
+    border: 2px solid #D9D9D9;
+    border-radius: 3px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea {
+    height: 55px !important;
+    resize: none;
+}
+
+select {
+    color: #969696;
+}
+
+.checkbox-field {
+    width: 17px;
+    height: 17px;
+    background-color: #F4F4F4;
+    border: 2px solid #D9D9D9;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.optionbox {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.passwordbox {
+    width: 100%;
+    padding-top: 10px;
+}
+
+
 @media screen and (max-width: 1024px) {
     .logo {
         width: 100px;
@@ -817,6 +1000,15 @@ input:checked+.slider {
     .our_mission_content {
         width: 100%;
         padding-bottom: 4px;
+    }
+    .form-input {
+        grid-template-columns: 1fr;
+    }
+    .signin {
+        flex-direction: column;
+    }
+    .form-container, .checkout {
+        width: 90%;
     }
 }
 
@@ -868,3 +1060,6 @@ input:checked+.slider {
         height: 250px;
     }
 }
+
+
+
