@@ -9,6 +9,7 @@ var swiper = new Swiper(".category-slider", {
     slidesPerrow: 1,
     spaceBetween: 30,
     freeMode: true,
+    loop: true,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
