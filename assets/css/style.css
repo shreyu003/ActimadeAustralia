@@ -228,8 +228,8 @@ input:checked+.slider {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: -6px;
-    right: -6px;
+    top: 1px;
+    right: 13px;
     background-color: #f69708;
     color: #ffffff;
     font-size: 12px;
@@ -429,6 +429,10 @@ input:checked+.slider {
 .product-tab-content {
     margin: 70px 0;
 }
+<<<<<<< HEAD
+    
+=======
+>>>>>>> a610dedc750773e73a25dbbbe5059de12b400283
 
 .product-content-inner {
     display: flex;
@@ -719,7 +723,7 @@ input:checked+.slider {
     align-items: center;
     padding: 8px 15px;
 }
-.image_block ul li:nth-child(1), .blog-image ul li:nth-child(2){
+.image_block ul li:nth-child(1), .image_block ul li:nth-child(2){
     border-right: 1px solid #858585;
 }
 .image_block ul li svg{
