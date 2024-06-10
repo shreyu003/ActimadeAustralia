@@ -19,10 +19,3 @@ var swiper = new Swiper(".category-slider", {
         prevEl: ".category-button-prev",
     },
 });
-
-var announceBarRemovebtn = document.querySelector('#announceBarRemoveBtn');
-var announceBar = document.querySelector('#announceBar');
-
-announceBarRemovebtn.addEventListener('click', () =>{
-    announceBar.remove();
-})
