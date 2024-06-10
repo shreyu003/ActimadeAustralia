@@ -6,6 +6,7 @@ var swiper = new Swiper(".heroSectionSlider", {
 });
 var swiper = new Swiper(".category-slider", {
     slidesPerView: 6,
+    slidesPerrow: 1,
     spaceBetween: 30,
     freeMode: true,
     autoplay: {
