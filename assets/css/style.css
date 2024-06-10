@@ -779,11 +779,16 @@ input:checked+.slider {
     justify-content: space-between;
     width: 100%;
     gap: 20px;
+    padding: 10px 0;
+}
+
+.checkout-head{
+    padding-bottom: 30px;
 }
 
 .form-container, .checkout {
     border: 2px solid #D9D9D9;
-    padding: 20px;
+    padding: 50px;
     width: 50%;
 }
 
@@ -799,50 +804,13 @@ label {
     margin-bottom: 10px;
 }
 
-.form-input {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    width: 100%;
-    padding-top: 10px;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-}
-
-.input-field {
-    padding: 10px;
-    background-color: #F4F4F4;
-    border: 2px solid #D9D9D9;
-    border-radius: 3px;
-}
-
-::placeholder {
-    text-transform: capitalize;
-    color: #969696;
-}
-
-.input-field:focus {
-    outline: none;
-}
-
-.forgot-password {
-    text-align: right;
-    margin-top: 10px;
+.fotgot-password{
+    margin-top: 30px;
 }
 
 .forgot-password a {
     text-decoration: none;
     color: blue;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 20px;
 }
 
 .form-buttons {
@@ -851,35 +819,17 @@ label {
     align-items: center;
 }
 
-.checkout p {
-    margin: 5px 0;
-}
-
-.btn {
-    background-color: #335985;
-    color: #ffffff;
-    border: 1px solid #335985;
-    border-radius: 25px;
-    padding: 6px 22px;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-.btn1 {
+.checkout-btn{
     background-color: #C6C6C6;
     border: 1px solid #C6C6C6;
     border-radius: 25px;
-    padding: 6px 22px;
+    padding: 6px 25px;
     text-decoration: none;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #000;
 }
-
-.btn:hover {
-    background-color: rgb(26, 59, 96);
-}
-.btn1:hover {
+.checkout-btn:hover {
     background-color: #a0a0a0;
 }
 
@@ -906,7 +856,7 @@ label {
 }
 
 .input-field {
-    padding: 0px;
+    padding: 10px;
     background-color: #F4F4F4;
     border: 2px solid #D9D9D9;
     border-radius: 3px;
@@ -915,7 +865,7 @@ label {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-  margin: 0;
+ margin: 0;
 }
 
 textarea {
@@ -937,8 +887,9 @@ select {
 }
 
 .optionbox {
-    width: 100%;
-    padding-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 .passwordbox {
@@ -946,6 +897,18 @@ select {
     padding-top: 10px;
 }
 
+.signin-input{
+    padding: 40px;
+}
+
+.signin-group{
+    padding: 20px;
+}
+
+.register-content{
+    width: 50%;
+    margin: auto;
+}
 
 @media screen and (max-width: 1024px) {
     .logo {
