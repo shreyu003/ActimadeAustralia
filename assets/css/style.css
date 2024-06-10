@@ -841,7 +841,7 @@ label {
 }
 
 .subtitle {
-    margin-top: 0;
+    font-size: 1.1rem;
 }
 
 .form-input {
@@ -864,8 +864,8 @@ label {
     border-radius: 3px;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+.input-field::-webkit-outer-spin-button,
+.input-field::-webkit-inner-spin-button {
   -webkit-appearance: none;
  margin: 0;
 }
@@ -914,11 +914,107 @@ select {
 
 .product {
     display: flex;
-    gap: 30px;
+    gap: 50px;
+    padding: 50px;
 }
 
 .product-images{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-image{
+    width: 90%;
+    height: auto;
+    border: 2px solid #cfcfcf;
+}
+
+.extra-images{
+    display: flex;
+    justify-content: space-between; 
+    width: 90%;
+    margin-top: 10px; 
+}
+.extra-images img{
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+    border: 2px solid #cfcfcf;
+}
+
+.discricption {
+    display: flex;
+  }
+  
+  .discricption-image {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .horizontal-line{
+    border-bottom: 1px solid #1d1d1d4a;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+
+  .discricption-text {
+    padding: 100px 20px 20px 50px;
+    flex: 2;
+  }
+
+  .discricption-image img {
+    object-fit: cover;
+  }
+
+  .discricption-para{
+    line-height: 35px;
+  }
+  
+
+#catagory-name{
+    color: #ABABAB;
+}
+
+.add-to-cart-btn{
+    background-color: #E4573D;
+    border: 2px solid #E4573D;
+    color: white;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.add-to-cart-btn:hover{
+    color: #E4573D;
+    background-color: white;
+}
+
+#quantity {
+    width: 30%;
+    padding: 15px;
+    padding-right: 0 !important;
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 1.3rem;
+}
+
+#quantity::-webkit-inner-spin-button,
+#quantity::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+.stock-status{
+    padding-top: 120px;
+}
+
+.product-title{
+    padding-bottom: 20px;
     width: 100%;
+}
+
+.product-price, .product-code{
+    padding: 20px 0 0 0;
 }
 
 @media screen and (max-width: 1024px) {
