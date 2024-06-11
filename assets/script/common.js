@@ -100,4 +100,3 @@ var productMainBlock = new Swiper(".product_main_block", {
         document.getElementById('quantity').value = quantity;
     }
 }
->>>>>>> 666dd685f1e97870f61ddfd86658f2a9ccd83e6c
