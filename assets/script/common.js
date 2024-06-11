@@ -40,10 +40,6 @@ var categorySlider = new Swiper(".category-slider", {
   }
 
 });
-<<<<<<< HEAD
-=======
-
->>>>>>> 666dd685f1e97870f61ddfd86658f2a9ccd83e6c
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
     autoplay: {
@@ -88,10 +84,6 @@ var productMainBlock = new Swiper(".product_main_block", {
     thumbs: {
       swiper: productMainBlock,
     },
-<<<<<<< HEAD
-  });
-=======
-
   });
   
   //product page quantity selector
