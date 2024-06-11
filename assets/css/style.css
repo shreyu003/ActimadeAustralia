@@ -1558,22 +1558,9 @@ select {
   }
 
       .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        /* background: #fff; */
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
+        text-align: center; 
         display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
         justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
         align-items: center;
       }
 
@@ -1585,32 +1572,39 @@ select {
       }
 
       .swiper-container {
-        margin-left: auto;
-        margin-right: auto;
         overflow: hidden;
       }
 
-      .mySwiper2 {
+      .product_main_block {
         height: 65%;
         width: 100%;
       }
 
-      .mySwiper {
+      .product_img_slider {
         height: 15%;
         box-sizing: border-box;
         padding: 10px 0;
+        position: relative;
       }
 
-      .mySwiper .swiper-slide {
+      .product_img_slider .swiper-slide {
         width: 25%;
         height: 100%;
-        opacity: 0.6;
       }
 
-      .mySwiper .swiper-slide-thumb-active {
+      .product_img_slider .swiper-slide-thumb-active {
         opacity: 1;
       }
-
+      .prd-slider-btn{
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 50%;
+        border: 2px solid #000;
+      }
+      .prd-slider-btn::after{
+        font-size: 16px !important;
+        color: #000;
+      }
       .swiper-slide img {
         display: block;
         width: 100%;
