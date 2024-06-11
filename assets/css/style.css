@@ -1005,7 +1005,12 @@ input:checked+.slider {
     border-right: 1px solid #858585;
 }
 
+<<<<<<< HEAD
 .blog_share_link li:nth-child(1), .blog_share_link li:nth-child(2){
+=======
+.blog_share_link li:nth-child(1),
+.blog_share_link li:nth-child(2) {
+>>>>>>> 10847fb6bc5417ba2b5c28745d22b278d1e51c0e
     border-right: 1px solid #858585;
 }
 
@@ -1366,6 +1371,123 @@ label {
     padding-bottom: 15px;
     border-bottom: 1px solid #727272;
 }
+<<<<<<< HEAD
+=======
+
+.signin-input {
+    padding: 40px;
+}
+
+.signin-group {
+    padding: 20px;
+}
+
+.register-content {
+    width: 62%;
+}
+
+.register-content {
+    width: 50%;
+    margin: auto;
+}
+
+.product {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+}
+
+.product-images {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+#catagory-name {
+    color: #ABABAB;
+}
+
+.quantity-selector {
+    padding-bottom: 5px;
+}
+
+.quantity-btn {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5rem;
+}
+
+#quantity {
+    width: 60px;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.quantity-btn:active {
+    background-color: #ddd;
+}
+
+.add-to-cart-btn {
+    background-color: #E4573D;
+    border: 2px solid #E4573D;
+    color: white;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.add-to-cart-btn:hover {
+    color: #E4573D;
+    background-color: white;
+}
+
+.stock-status {
+    padding-top: 40px;
+}
+
+.product-title {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.product-code {
+    padding: 20px 0 0 0;
+}
+
+.discricption {
+    display: flex;
+}
+
+.discricption-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid #1d1d1d4a;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.discricption-text {
+    padding: 100px 20px 20px 50px;
+    flex: 2;
+}
+
+.discricption-image img {
+    object-fit: cover;
+}
+
+.discricption-para {
+    line-height: 35px;
+}
+
+>>>>>>> 10847fb6bc5417ba2b5c28745d22b278d1e51c0e
 .swiper-slide {
     text-align: center;
     display: flex;

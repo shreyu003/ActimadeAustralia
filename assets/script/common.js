@@ -40,6 +40,7 @@ var categorySlider = new Swiper(".category-slider", {
   }
 });
 
+<<<<<<< HEAD
 var realatedSwiper = new Swiper(".realated-swiper", {
   slidesPerView: 6,
   slidesPerrow: 1,
@@ -69,6 +70,8 @@ var realatedSwiper = new Swiper(".realated-swiper", {
   }
 });
 
+=======
+>>>>>>> 10847fb6bc5417ba2b5c28745d22b278d1e51c0e
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
     autoplay: {
@@ -167,3 +170,22 @@ var productMainBlock = new Swiper(".product_main_block", {
       swiper: productMainBlock,
     },
   });
+<<<<<<< HEAD
+=======
+
+  
+  //product page quantity selector
+  let quantity = 1;
+
+  function increment() {
+    quantity++;
+    document.getElementById('quantity').value = quantity;
+}
+
+  function decrement() {
+    if (quantity > 0) {
+        quantity--;
+        document.getElementById('quantity').value = quantity;
+    }
+}
+>>>>>>> 10847fb6bc5417ba2b5c28745d22b278d1e51c0e

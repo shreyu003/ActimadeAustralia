@@ -32,6 +32,7 @@
 //     sliderCart.style.right = '-100%';
 // });
 
+<<<<<<< HEAD
 // let quantity = 1;
 // function increment() {
 //     quantity++;
@@ -43,3 +44,16 @@
 //         document.getElementById('quantity').value = quantity;
 //     }
 // }
+=======
+let quantity = 1;
+function increment() {
+    quantity++;
+    document.getElementById('quantity').value = quantity;
+}
+function decrement() {
+    if (quantity > 0) {
+        quantity--;
+        document.getElementById('quantity').value = quantity;
+    }
+}
+>>>>>>> 10847fb6bc5417ba2b5c28745d22b278d1e51c0e
