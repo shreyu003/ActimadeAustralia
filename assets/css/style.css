@@ -664,15 +664,6 @@ input:checked+.slider {
 .saller-banner {
     width: 100%;
 }
-<<<<<<< HEAD
-
-/* .product-content-inner {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-} */
-=======
->>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
 
 .product-inner {
     display: grid;
@@ -980,16 +971,7 @@ input:checked+.slider {
 .border1 {
     border: 1px solid #8f8f8f;
 }
-
-<<<<<<< HEAD
-.blog_main_block .row:nth-child(even) {
-    flex-direction: row-reverse !important;
-}
-
-.other_main_block:nth-child(even) .row {
-=======
 .other_main_block:nth-child(even) .row{
->>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
     flex-direction: row-reverse;
 }
 
@@ -1014,7 +996,6 @@ input:checked+.slider {
     display: flex;
     align-items: center;
 }
-<<<<<<< HEAD
 
 .image_block ul li:nth-child(1),
 .blog-image ul li:nth-child(2) {
@@ -1547,7 +1528,6 @@ select {
     justify-content: center;
     align-items: center;
 }
-=======
       .swiper-slide {
         text-align: center; 
         display: flex;
@@ -1555,7 +1535,6 @@ select {
         align-items: center;
         position: relative;
       }
->>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
 
 .swiper-slide img {
     display: block;
@@ -1608,8 +1587,6 @@ select {
     object-fit: cover;
 }
 
-<<<<<<< HEAD
-=======
       .product_img_slider .swiper-slide-thumb-active {
         opacity: 1;
       }
@@ -1630,7 +1607,6 @@ select {
         object-fit: cover;
       }
 
->>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
 
 @media screen and (max-width: 1024px) {
     .logo {
@@ -1900,18 +1876,16 @@ select {
     .navbar {
         width: 60%;
     }
-<<<<<<< HEAD
 
     .navbar ul {
         justify-content: end;
-=======
+    }
     .navbar ul li:nth-child(3){
         padding: 0 10px;
     }
     .cart_count {
         top: -4px;
         right: 5px;
->>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
     }
 
     .serach_input_block {
@@ -2021,7 +1995,6 @@ select {
     .about-para {
         width: 100%;
     }
-<<<<<<< HEAD
 
     .section-head {
         position: sticky;
@@ -2034,7 +2007,7 @@ select {
         width: 75%;
         font-size: 20px;
         line-height: 28px;
-=======
+    }
     .prd-slider-btn {
         width: 30px !important;
         height: 30px !important;
@@ -2042,7 +2015,6 @@ select {
     }
     .prd-slider-btn::after {
         font-size: 14px !important;
->>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
     }
 }
 
