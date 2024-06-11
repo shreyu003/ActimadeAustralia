@@ -300,8 +300,8 @@ input:checked+.slider {
     position: absolute;
     top: 2px;
     right: 18px;
-    top: 1px;
-    right: 13px;
+    top: 2px;
+    right: 18px;
     background-color: #f69708;
     color: #ffffff;
     font-size: 12px;
