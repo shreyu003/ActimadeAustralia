@@ -38,12 +38,37 @@ var categorySlider = new Swiper(".category-slider", {
       spaceBetween: 20
     }
   }
-
 });
-<<<<<<< HEAD
 
-=======
->>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
+var realatedSwiper = new Swiper(".realated-swiper", {
+  slidesPerView: 6,
+  slidesPerrow: 1,
+  spaceBetween: 30,
+  freeMode: true,
+  loop: true,
+  navigation: {
+    nextEl: ".related-prd-button-next",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    },
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 20
+    },
+    1024: {
+      slidesPerView: 6,
+      spaceBetween: 20
+    }
+  }
+});
+
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
     autoplay: {
@@ -51,9 +76,10 @@ var saleSlider = new Swiper(".sale-slider", {
         disableOnInteraction: false,
     },
     navigation: {
-        nextEl: ".category-button-next",
+        nextEl: ".sale-btn-next",
     },
 });
+
 var brandSwiper = new Swiper(".brand-swiper", {
     // loop: true,
     slidesPerView: 6,
@@ -71,12 +97,64 @@ var brandSwiper = new Swiper(".brand-swiper", {
     },
 });
 
+var prdPageBrandSwiper = new Swiper(".prd-page-brand-swiper", {
+    slidesPerView: 6,
+    grid: {
+        rows: 2,
+    },
+    spaceBetween: 30,
+    navigation: {
+        nextEl: ".logo-next-block",
+        prevEl: ".logo-prev-block",
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      },
+      1364: {
+        slidesPerView: 6,
+        spaceBetween: 20
+      },
+    }
+});
+
 var productMainBlock = new Swiper(".product_main_block", {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 4,
     freeMode: true,
     watchSlidesProgress: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      },
+    }
   });
   var productImgSlider = new Swiper(".product_img_slider", {
     loop: true,
@@ -89,23 +167,3 @@ var productMainBlock = new Swiper(".product_main_block", {
       swiper: productMainBlock,
     },
   });
-<<<<<<< HEAD
-
-  
-  //product page quantity selector
-  let quantity = 1;
-
-  function increment() {
-    quantity++;
-    document.getElementById('quantity').value = quantity;
-}
-
-  function decrement() {
-    if (quantity > 0) {
-        quantity--;
-        document.getElementById('quantity').value = quantity;
-    }
-}
-=======
-
->>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
