@@ -206,11 +206,7 @@ nav {
 .navbar ul li:nth-child(2),
 .navbar ul li:nth-child(3) {
     border-right: 1px solid #8f8f8f;
-<<<<<<< HEAD
     padding: 8px 25px 8px 0;
-=======
-    padding: 8px 20px 8px 0;
->>>>>>> 3ce844fb8732a60bcb77f9ce4fea3786faf78206
 }
 
 .serach_input_block {
@@ -302,13 +298,10 @@ input:checked+.slider {
     align-items: center;
     justify-content: center;
     position: absolute;
-<<<<<<< HEAD
     top: 2px;
     right: 18px;
-=======
     top: 1px;
     right: 13px;
->>>>>>> 3ce844fb8732a60bcb77f9ce4fea3786faf78206
     background-color: #f69708;
     color: #ffffff;
     font-size: 12px;
@@ -1111,13 +1104,9 @@ label {
 .checkout-btn:hover {
     background-color: #a0a0a0;
 }
-
-<<<<<<< HEAD
-=======
 .subtitle {
     font-size: 1.1rem;
 }
->>>>>>> 3ce844fb8732a60bcb77f9ce4fea3786faf78206
 .form-input {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1433,27 +1422,23 @@ select {
 .category-button-prev img {
     width: 10px;
 }
-<<<<<<< HEAD
 
 .signin-input {
     padding: 20px 40px;
-=======
+}
 .signin-input{
     padding: 40px;
->>>>>>> 3ce844fb8732a60bcb77f9ce4fea3786faf78206
 }
 
 .signin-group{
     padding: 20px;
 }
 
-<<<<<<< HEAD
 .register-content {
     width: 62%;
-=======
+}
 .register-content{
     width: 50%;
->>>>>>> 3ce844fb8732a60bcb77f9ce4fea3786faf78206
     margin: auto;
 }
 
