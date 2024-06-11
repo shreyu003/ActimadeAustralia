@@ -30,3 +30,19 @@ cartOpnBtn.addEventListener('click', () => {
 cartClsBtn.addEventListener('click', () => {
     sliderCart.style.right = '-100%';
 });
+
+
+  //product page quantity selector
+  let quantity = 1;
+
+  function increment() {
+    quantity++;
+    document.getElementById('quantity').value = quantity;
+}
+
+  function decrement() {
+    if (quantity > 0) {
+        quantity--;
+        document.getElementById('quantity').value = quantity;
+    }
+}
