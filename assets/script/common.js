@@ -1,7 +1,7 @@
 var heroSectionSlider = new Swiper(".heroSectionSlider", {
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-button-next.hero_slider_btn-next",
+    prevEl: ".swiper-button-prev.hero_slider_btn-prev",
   },
 })
 
@@ -85,19 +85,4 @@ var productMainBlock = new Swiper(".product_main_block", {
       swiper: productMainBlock,
     },
   });
-  
-  //product page quantity selector
-  let quantity = 1;
-
-  function increment() {
-    quantity++;
-    document.getElementById('quantity').value = quantity;
-}
-
-  function decrement() {
-    if (quantity > 0) {
-        quantity--;
-        document.getElementById('quantity').value = quantity;
-    }
-}
 
