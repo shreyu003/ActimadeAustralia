@@ -31,25 +31,37 @@ var categorySlider = new Swiper(".category-slider", {
             spaceBetween: 20
         }
   }
-<<<<<<< HEAD
 
 });
 
-
-var announceBarRemovebtn = document.querySelector('#announceBarRemoveBtn');
-var announceBar = document.querySelector('#announceBar');
-
-announceBarRemovebtn.addEventListener('click', () =>{
-    announceBar.remove();
-})
-
-var swiper = new Swiper(".mySwiper", {
-=======
+var saleSlider = new Swiper(".sale-slider", {
+    loop: true,
+    autoplay: {
+    delay: 2500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".category-button-next",
+    },
 });
-
+var brandSwiper = new Swiper(".brand-swiper", {
+    // loop: true,
+    slidesPerView: 6,
+    grid: {
+        rows: 2,
+    },
+    spaceBetween: 30,
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    // },
+    navigation: {
+        nextEl: ".logo-next-block",
+        prevEl: ".logo-prev-block",
+    },
+});
 
 var productMainBlock = new Swiper(".product_main_block", {
->>>>>>> eb562c00760e3f3c1b8b9f01dd2da5b1633908a4
     loop: true,
     spaceBetween: 10,
     slidesPerView: 4,
@@ -67,7 +79,3 @@ var productMainBlock = new Swiper(".product_main_block", {
       swiper: productMainBlock,
     },
   });
-<<<<<<< HEAD
-=======
-
->>>>>>> eb562c00760e3f3c1b8b9f01dd2da5b1633908a4
