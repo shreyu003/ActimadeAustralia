@@ -1005,12 +1005,8 @@ input:checked+.slider {
     border-right: 1px solid #858585;
 }
 
-<<<<<<< HEAD
-.blog_share_link li:nth-child(1), .blog_share_link li:nth-child(2){
-=======
 .blog_share_link li:nth-child(1),
 .blog_share_link li:nth-child(2) {
->>>>>>> 10847fb6bc5417ba2b5c28745d22b278d1e51c0e
     border-right: 1px solid #858585;
 }
 
@@ -1371,9 +1367,6 @@ label {
     padding-bottom: 15px;
     border-bottom: 1px solid #727272;
 }
-<<<<<<< HEAD
-=======
-
 .signin-input {
     padding: 40px;
 }
@@ -1486,8 +1479,6 @@ label {
 .discricption-para {
     line-height: 35px;
 }
-
->>>>>>> 10847fb6bc5417ba2b5c28745d22b278d1e51c0e
 .swiper-slide {
     text-align: center;
     display: flex;
@@ -1554,11 +1545,6 @@ label {
     font-size: 18px;
     margin-top: 10px;
 }
-
-
-
-
-
 
 @media screen and (max-width: 1024px) {
     .logo {
