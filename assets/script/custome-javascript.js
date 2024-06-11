@@ -32,15 +32,13 @@ cartClsBtn.addEventListener('click', () => {
 });
 
 let quantity = 1;
-
 function increment() {
-  quantity++;
-  document.getElementById('quantity').value = quantity;
+    quantity++;
+    document.getElementById('quantity').value = quantity;
 }
-
 function decrement() {
-  if (quantity > 0) {
-      quantity--;
-      document.getElementById('quantity').value = quantity;
-  }
+    if (quantity > 0) {
+        quantity--;
+        document.getElementById('quantity').value = quantity;
+    }
 }
