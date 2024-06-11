@@ -40,6 +40,7 @@ var categorySlider = new Swiper(".category-slider", {
   }
 
 });
+
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
     autoplay: {
@@ -86,3 +87,18 @@ var productMainBlock = new Swiper(".product_main_block", {
     },
   });
 
+  
+  //product page quantity selector
+  let quantity = 1;
+
+  function increment() {
+    quantity++;
+    document.getElementById('quantity').value = quantity;
+}
+
+  function decrement() {
+    if (quantity > 0) {
+        quantity--;
+        document.getElementById('quantity').value = quantity;
+    }
+}
