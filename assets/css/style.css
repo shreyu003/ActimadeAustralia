@@ -1546,6 +1546,7 @@ select {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
       }
 
       .swiper-slide img {
@@ -1595,7 +1596,7 @@ select {
         height: 100%;
         object-fit: cover;
       }
-  
+
 
 @media screen and (max-width: 1024px) {
     .logo {
