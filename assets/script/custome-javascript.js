@@ -31,22 +31,6 @@ cartClsBtn.addEventListener('click', () => {
     sliderCart.style.right = '-100%';
 });
 
-<<<<<<< HEAD
-
-  //product page quantity selector
-  let quantity = 1;
-
-  function increment() {
-    quantity++;
-    document.getElementById('quantity').value = quantity;
-}
-
-  function decrement() {
-    if (quantity > 0) {
-        quantity--;
-        document.getElementById('quantity').value = quantity;
-    }
-=======
 let quantity = 1;
 
 function increment() {
@@ -59,5 +43,4 @@ function decrement() {
       quantity--;
       document.getElementById('quantity').value = quantity;
   }
->>>>>>> eb213457f3ff163fc151ca59d65d90049b2710d7
 }
