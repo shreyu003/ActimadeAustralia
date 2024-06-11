@@ -31,6 +31,18 @@ var categorySlider = new Swiper(".category-slider", {
             spaceBetween: 20
         }
   }
+
+});
+
+
+var announceBarRemovebtn = document.querySelector('#announceBarRemoveBtn');
+var announceBar = document.querySelector('#announceBar');
+
+announceBarRemovebtn.addEventListener('click', () =>{
+    announceBar.remove();
+})
+
+var swiper = new Swiper(".mySwiper", {
 });
 
 
@@ -52,7 +64,7 @@ var productMainBlock = new Swiper(".product_main_block", {
       swiper: productMainBlock,
     },
   });
-
+  
   //product page quantity selector
   let quantity = 1;
 
@@ -67,4 +79,3 @@ var productMainBlock = new Swiper(".product_main_block", {
         document.getElementById('quantity').value = quantity;
     }
 }
-
