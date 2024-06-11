@@ -1,3 +1,11 @@
+var heroSectionSlider = new Swiper(".heroSectionSlider", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+})
+
+
 var categorySlider = new Swiper(".category-slider", {
   slidesPerView: 6,
   slidesPerrow: 1,
@@ -32,8 +40,6 @@ var categorySlider = new Swiper(".category-slider", {
   }
 
 });
-
-<<<<<<< HEAD
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
     autoplay: {
@@ -60,8 +66,6 @@ var brandSwiper = new Swiper(".brand-swiper", {
         prevEl: ".logo-prev-block",
     },
 });
-=======
->>>>>>> 7d5d0695a1511ab0fd8e60d0e448b2dfb4b4ee07
 
 var productMainBlock = new Swiper(".product_main_block", {
     loop: true,
@@ -80,23 +84,4 @@ var productMainBlock = new Swiper(".product_main_block", {
     thumbs: {
       swiper: productMainBlock,
     },
-<<<<<<< HEAD
   });
-=======
-  });
-  
-  //product page quantity selector
-  let quantity = 1;
-
-  function increment() {
-    quantity++;
-    document.getElementById('quantity').value = quantity;
-}
-
-  function decrement() {
-    if (quantity > 0) {
-        quantity--;
-        document.getElementById('quantity').value = quantity;
-    }
-}
->>>>>>> 7d5d0695a1511ab0fd8e60d0e448b2dfb4b4ee07
