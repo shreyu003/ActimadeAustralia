@@ -52,10 +52,8 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width: 1320px;
+    width: 90%;
     margin: 0 auto;
-    padding: 0 10px;
 }
 .row {
     width: 100%;
@@ -208,7 +206,7 @@ nav {
 .navbar ul li:nth-child(2),
 .navbar ul li:nth-child(3) {
     border-right: 1px solid #8f8f8f;
-    padding: 8px 20px 8px 0;
+    padding: 8px 25px 8px 0;
 }
 
 .serach_input_block {
@@ -300,8 +298,10 @@ input:checked+.slider {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 1px;
-    right: 13px;
+    top: 2px;
+    right: 18px;
+    top: 2px;
+    right: 18px;
     background-color: #f69708;
     color: #ffffff;
     font-size: 12px;
@@ -1036,8 +1036,9 @@ input:checked+.slider {
 .subtitle {
     margin-top: 0;
     padding-bottom: 30px;
-}
+    font-size: 1.1rem;
 
+}
 .signin {
     display: flex;
     flex-direction: row;
@@ -1071,11 +1072,11 @@ label {
 
 .forgot-password{
     padding: 20px 0;
+    margin-top: 10px;
 }
-
 .forgot-password a {
     text-decoration: none;
-    color: blue;
+    color: #0000ff;
 }
 
 .form-buttons {
@@ -1103,7 +1104,6 @@ label {
 .checkout-btn:hover {
     background-color: #a0a0a0;
 }
-
 .subtitle {
     font-size: 1.1rem;
 }
@@ -1119,7 +1119,9 @@ label {
     display: flex;
     flex-direction: column;
 }
-
+.form-group label{
+    padding-top: 20px;
+}
 .input-field {
     padding: 10px;
     background-color: #F4F4F4;
@@ -1134,29 +1136,6 @@ label {
 
 .input-field:focus {
     outline: none;
-}
-
-.forgot-password {
-    text-align: right;
-    margin-top: 10px;
-}
-
-.forgot-password a {
-    text-decoration: none;
-    color: blue;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.form-buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .checkout p {
@@ -1208,9 +1187,6 @@ label {
     text-align: left;
 }
 
-.subtitle {
-    margin-top: 0;
-}
 
 .form-input {
     display: grid;
@@ -1226,7 +1202,8 @@ label {
 }
 
 .input-field {
-    padding: 0px;
+    padding: 10px;
+    margin-top: 10px;
     background-color: #F4F4F4;
     border: 2px solid #D9D9D9;
     border-radius: 3px;
@@ -1254,10 +1231,6 @@ select {
     border: 2px solid #D9D9D9;
     vertical-align: middle;
     margin-top: -2px;
-}
-
-::placeholder{
-    text-transform: capitalize;
 }
 
 .optionbox {
@@ -1449,6 +1422,10 @@ select {
 .category-button-prev img {
     width: 10px;
 }
+
+.signin-input {
+    padding: 20px 40px;
+}
 .signin-input{
     padding: 40px;
 }
@@ -1457,6 +1434,9 @@ select {
     padding: 20px;
 }
 
+.register-content {
+    width: 62%;
+}
 .register-content{
     width: 50%;
     margin: auto;
