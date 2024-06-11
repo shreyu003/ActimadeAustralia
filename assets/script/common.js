@@ -18,6 +18,7 @@ var swiper = new Swiper(".category-slider", {
         nextEl: ".category-button-next",
         prevEl: ".category-button-prev",
     },
+<<<<<<< HEAD
     breakpoints: {
         320: {
             slidesPerView: 2,
@@ -36,6 +37,11 @@ var swiper = new Swiper(".category-slider", {
             spaceBetween: 20
         }
   }
+=======
+<<<<<<< HEAD
+});
+=======
+>>>>>>> 08ca4e61a4a243e2b81d636debda889e4500125e
 });
 
 var announceBarRemovebtn = document.querySelector('#announceBarRemoveBtn');
@@ -45,3 +51,25 @@ announceBarRemovebtn.addEventListener('click', () =>{
     announceBar.remove();
 })
 
+<<<<<<< HEAD
+=======
+var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+  });
+  var swiper2 = new Swiper(".mySwiper2", {
+    loop: true,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+      swiper: swiper,
+    },
+  });
+>>>>>>> ea37361c68a9cca2a9b4c36521082887de131766
+>>>>>>> 08ca4e61a4a243e2b81d636debda889e4500125e
