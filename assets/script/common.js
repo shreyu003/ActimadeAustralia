@@ -40,6 +40,10 @@ var categorySlider = new Swiper(".category-slider", {
   }
 
 });
+<<<<<<< HEAD
+
+=======
+>>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
     autoplay: {
@@ -85,4 +89,23 @@ var productMainBlock = new Swiper(".product_main_block", {
       swiper: productMainBlock,
     },
   });
+<<<<<<< HEAD
 
+  
+  //product page quantity selector
+  let quantity = 1;
+
+  function increment() {
+    quantity++;
+    document.getElementById('quantity').value = quantity;
+}
+
+  function decrement() {
+    if (quantity > 0) {
+        quantity--;
+        document.getElementById('quantity').value = quantity;
+    }
+}
+=======
+
+>>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
