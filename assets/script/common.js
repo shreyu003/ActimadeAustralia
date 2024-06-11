@@ -1,3 +1,11 @@
+var heroSectionSlider = new Swiper(".heroSectionSlider", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+})
+
+
 var categorySlider = new Swiper(".category-slider", {
   slidesPerView: 6,
   slidesPerrow: 1,
@@ -32,7 +40,6 @@ var categorySlider = new Swiper(".category-slider", {
   }
 
 });
-
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
     autoplay: {
@@ -77,6 +84,23 @@ var productMainBlock = new Swiper(".product_main_block", {
     thumbs: {
       swiper: productMainBlock,
     },
-
   });
   
+<<<<<<< HEAD
+=======
+  //product page quantity selector
+  let quantity = 1;
+
+  function increment() {
+    quantity++;
+    document.getElementById('quantity').value = quantity;
+}
+
+  function decrement() {
+    if (quantity > 0) {
+        quantity--;
+        document.getElementById('quantity').value = quantity;
+    }
+}
+>>>>>>> 666dd685f1e97870f61ddfd86658f2a9ccd83e6c
+>>>>>>> eb213457f3ff163fc151ca59d65d90049b2710d7
