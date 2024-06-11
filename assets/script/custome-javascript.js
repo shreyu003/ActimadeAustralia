@@ -5,10 +5,10 @@ announceBarRemovebtn.addEventListener('click', () =>{
     announceBar.remove();
 })
 
+const body = document.getElementsByTagName('body');
 const mblMenuOpnBtn = document.querySelector('#mobileMenuOpenBtn');
 const mblMenuClsBtn = document.querySelector('#mobileMenuCloseBtn');
 const mblMenu = document.querySelector('.mobile_menu_wrapper');
-var body = document.getElementsByTagName('body');
 
 mblMenuOpnBtn.addEventListener('click', () => {
     mblMenu.style.left = '0%';
@@ -18,6 +18,7 @@ mblMenuOpnBtn.addEventListener('click', () => {
 mblMenuClsBtn.addEventListener('click', () => {
     mblMenu.style.left = '-100%';
 });
+
 
 const cartOpnBtn = document.querySelector('#cartOpenBtn');
 const cartClsBtn = document.querySelector('#cartCloseBtn');
@@ -30,3 +31,15 @@ cartOpnBtn.addEventListener('click', () => {
 cartClsBtn.addEventListener('click', () => {
     sliderCart.style.right = '-100%';
 });
+
+let quantity = 1;
+function increment() {
+    quantity++;
+    document.getElementById('quantity').value = quantity;
+}
+function decrement() {
+    if (quantity > 0) {
+        quantity--;
+        document.getElementById('quantity').value = quantity;
+    }
+}

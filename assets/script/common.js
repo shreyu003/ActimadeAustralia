@@ -1,3 +1,11 @@
+var heroSectionSlider = new Swiper(".heroSectionSlider", {
+  navigation: {
+    nextEl: ".swiper-button-next.hero_slider_btn-next",
+    prevEl: ".swiper-button-prev.hero_slider_btn-prev",
+  },
+})
+
+
 var categorySlider = new Swiper(".category-slider", {
   slidesPerView: 6,
   slidesPerrow: 1,
@@ -32,7 +40,10 @@ var categorySlider = new Swiper(".category-slider", {
   }
 
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
     autoplay: {
@@ -78,6 +89,7 @@ var productMainBlock = new Swiper(".product_main_block", {
       swiper: productMainBlock,
     },
   });
+<<<<<<< HEAD
 
   
   //product page quantity selector
@@ -94,3 +106,6 @@ var productMainBlock = new Swiper(".product_main_block", {
         document.getElementById('quantity').value = quantity;
     }
 }
+=======
+
+>>>>>>> d2743118875cabf80473725c75ac22a76eedb67f
