@@ -31,9 +31,9 @@
                         <img src="./assets/Images/Product/product.png" />
                         </div>
                     </div>
+                </div> 
                     <div class="swiper-button-prev prd-slider-btn prd-slider-prev"></div>
                     <div class="swiper-button-next prd-slider-btn prd-slider-next"></div>
-                </div>
                 <div thumbsSlider="" class="swiper-container product_main_block">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -51,6 +51,7 @@
                     </div>
                 </div>
             </div> 
+            
             <div class="product-details">
                 <ul class="product-title">
                     <li>
@@ -77,7 +78,11 @@
                         </li>
                         <li>
                             <div class="product-quantity">
-                                <input id="quantity" type="number" value="1">
+                                <div class="quantity-selector">
+                                    <button class="quantity-btn" id="minus" onclick="decrement()">-</button>
+                                    <input type="text" id="quantity" value="1" readonly>
+                                    <button class="quantity-btn" id="plus" onclick="increment()">+</button>
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -89,7 +94,7 @@
         </div>
     </section>
 
-    
+
     <section class="section-space1">
         <div class="container discricption">
             <div class="discricption-text">
@@ -98,17 +103,16 @@
                 <p class="content_para">These easy grip balls are vibrant in colour and ideal for small hands. The raised bumps are easy to grip, which helps to develop catch and throw skills. SENSES/SKILLS: Gross Motor / Easy to grip, helps develop catch and throw skills Eye Hand Coordination Tactile / Raised bumps provide sensory input for hands and feet. These easy grip balls are vibrant in colour and ideal for small hands. The raised bumps are easy to grip, which helps to develop catch and throw skills. SENSES/SKILLS: Gross Motor / Easy to grip, helps develop catch and throw skills Eye Hand Coordination Tactile Raised bumps provide sensory input for hands and feet.</p>
               </div>
             <div class="discricption-image">
-              <img src="assets/Images/Product/descricption.png" alt="Kenkay Sorbolene Cream">
+                <img src="assets/Images/Product/descricption.png" alt="Kenkay Sorbolene Cream">
             </div>
         </div>
     </section>
 
-
+    <script src="./assets/script/common.js"></script>
+    <script src="./assets/script/custome-javascript.js"></script>
     <script src="./assets/PlugIn/Jquery/jquery.min.js"></script>
     <script src="./assets/PlugIn/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/script/getHeader&Footer.js"></script>
-    <script src="assets/script/common.js">
-      
-    </script>
+
 </body>
 </html>

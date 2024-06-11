@@ -8,9 +8,11 @@ announceBarRemovebtn.addEventListener('click', () =>{
 const mblMenuOpnBtn = document.querySelector('#mobileMenuOpenBtn');
 const mblMenuClsBtn = document.querySelector('#mobileMenuCloseBtn');
 const mblMenu = document.querySelector('.mobile_menu_wrapper');
+var body = document.getElementsByTagName('body');
 
 mblMenuOpnBtn.addEventListener('click', () => {
     mblMenu.style.left = '0%';
+    body.style.overflowY = 'hidden';
 });
 
 mblMenuClsBtn.addEventListener('click', () => {
