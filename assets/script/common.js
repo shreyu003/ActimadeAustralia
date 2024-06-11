@@ -1,10 +1,4 @@
-var swiper = new Swiper(".heroSectionSlider", {
-    navigation: {
-      nextEl: ".swiper-button-next.hero_slider_btn-next",
-      prevEl: ".swiper-button-prev.hero_slider_btn-prev",
-    },
-});
-var swiper = new Swiper(".category-slider", {
+var categorySlider = new Swiper(".category-slider", {
     slidesPerView: 2,
     slidesPerrow: 1,
     spaceBetween: 30,
@@ -37,6 +31,7 @@ var swiper = new Swiper(".category-slider", {
             spaceBetween: 20
         }
   }
+<<<<<<< HEAD
 
 });
 
@@ -49,20 +44,30 @@ announceBarRemovebtn.addEventListener('click', () =>{
 })
 
 var swiper = new Swiper(".mySwiper", {
+=======
+});
+
+
+var productMainBlock = new Swiper(".product_main_block", {
+>>>>>>> eb562c00760e3f3c1b8b9f01dd2da5b1633908a4
     loop: true,
     spaceBetween: 10,
     slidesPerView: 4,
     freeMode: true,
     watchSlidesProgress: true,
   });
-  var swiper2 = new Swiper(".mySwiper2", {
+  var productImgSlider = new Swiper(".product_img_slider", {
     loop: true,
     spaceBetween: 10,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-next.prd-slider-next",
+      prevEl: ".swiper-button-prev.prd-slider-prev",
     },
     thumbs: {
-      swiper: swiper,
+      swiper: productMainBlock,
     },
   });
+<<<<<<< HEAD
+=======
+
+>>>>>>> eb562c00760e3f3c1b8b9f01dd2da5b1633908a4
