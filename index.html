@@ -58,7 +58,7 @@
     </section>
     <section class="banner-section">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-between">
                 <a href="#" class="banner-block col-8">
                     <img src="./assets/images/homepage/banner-1.png" alt="Banner Image" class="banner-img">
                     <div class="banner-text">Contour Pillow</div>
@@ -74,14 +74,14 @@
         <div class="container">
             <div class="category-head">
                 <div>
-                    <div class="section-small-head">Product Categories</div>
-                    <h2 class="section-heading">Shop By Categories</h2>
+                    <p class="section-small-head">Product Categories</p>
+                    <h2>Shop By Categories</h2>
                 </div>
                 <div class="category-slider-btn">
-                    <div class="category-button-prev"><img src="./assets/images/homepage/left-arrow.svg"
-                            alt="left arrow"></div>
-                    <div class="category-button-next"><img src="./assets/images/homepage/right-arrow.svg"
-                            alt="right arrow"></div>
+                    <button class="category-button-prev"><img src="./assets/images/homepage/left-arrow.svg"
+                            alt="left arrow"></button>
+                    <button class="category-button-next"><img src="./assets/images/homepage/right-arrow.svg"
+                            alt="right arrow"></button>
                 </div>
             </div>
             <div class="swiper category-slider">
@@ -93,7 +93,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Sports Medicine</h4>
+                                <p class="category-name">Sports Medicine</p>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Hot & Cold Theraphy</h4>
+                                <p class="category-name">Hot & Cold Theraphy</p>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Hand Therapy</h4>
+                                <p class="category-name">Hand Therapy</p>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Comfort & Support</h4>
+                                <p class="category-name">Comfort & Support</p>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Creams & Oils..</h4>
+                                <p class="category-name">Creams & Oils..</p>
                             </div>
                         </div>
                     </div>
@@ -148,7 +148,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Sports</h4>
+                                <p class="category-name">Sports</p>
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Sports Medicine</h4>
+                                <p class="category-name">Sports Medicine</p>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Hot & Cold Theraphy</h4>
+                                <p class="category-name">Hot & Cold Theraphy</p>
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Hand Therapy</h4>
+                                <p class="category-name">Hand Therapy</p>
                             </div>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Comfort & Support</h4>
+                                <p class="category-name">Comfort & Support</p>
                             </div>
                         </div>
                     </div>
@@ -203,7 +203,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Creams & Oils..</h4>
+                                <p class="category-name">Creams & Oils..</p>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                                     class="cateogry-img">
                             </div>
                             <div>
-                                <h4 class="category-name">Sports</h4>
+                                <p class="category-name">Sports</p>
                             </div>
                         </div>
                     </div>
@@ -227,34 +227,36 @@
         <div class="container">
             <div class="section-head">
                 <div>
-                    <div class="section-small-head">So you can see where all this error comes from</div>
-                    <h2 class="section-heading">Featured Products</h2>
+                    <p class="section-small-head">So you can see where all this error comes from</p>
+                    <h2>Featured Products</h2>
                 </div>
                 <div>
                     <div class="product-tab">
-                        <button id="defaultOpen" class="product-tablinks">Best Seller</button>
-                        <button class="product-tablinks">Popular</button>
-                        <button class="product-tablinks">Top Rated</button>
+                        <button class="product-tablinks active" data-tab="tab1">Best Seller</button>
+                        <button class="product-tablinks" data-tab="tab2">Popular</button>
+                        <button class="product-tablinks" data-tab="tab3">Top Rated</button>
                     </div>
                 </div>
             </div>
             <div>
                 <div class="product-tab-content">
-                    <div id="best-seller" class="product-tabcontent">
-                        <div class="row">
-                            <div class="col-4">
+                    <div class="product-tabcontent active" id="tab1">
+                        <div class="row justify-content-between">
+                            <div class="col-2">
                                 <img src="./assets/images/homepage/saller-banner.png" alt="saller banner"
                                     class="saller-banner">
                             </div>
-                            <div class="product-inner col-8">
+                            <div class="product-inner col-10">
                                 <a href="#" class="product-block">
                                     <div class="product-img-block">
                                         <img src="./assets/images/homepage/pr-1.png" alt="Product Image"
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Gloves and Masks</h3>
-                                        <div class="product-price">AUD $15.18</div>
+                                        <p class="product-name">Gloves and Masks</p>
+                                        <div>
+                                            <p class="product-price">AUD $15.18</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -263,8 +265,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Chi Bolster</h3>
-                                        <div class="product-price">AUD $49.50</div>
+                                        <p class="product-name">Chi Bolster</p>
+                                        <div>
+                                            <p class="product-price">AUD $49.50</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -273,8 +277,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Powder Free Gloves</h3>
-                                        <div class="product-price">AUD $15.84</div>
+                                        <p class="product-name">Powder Free Gloves</p>
+                                        <div>
+                                            <p class="product-price">AUD $15.84</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -283,8 +289,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Solari Peri Cushion</h3>
-                                        <div class="product-price">AUD $100.00</div>
+                                        <p class="product-name">Solari Peri Cushion</p>
+                                        <div>
+                                            <p class="product-price">AUD $100.00</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -293,8 +301,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Donjoy Ultrasling III</h3>
-                                        <div class="product-price">AUD $206.25</div>
+                                        <p class="product-name">Donjoy Ultrasling III</p>
+                                        <div>
+                                            <p class="product-price">AUD $206.25</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -303,8 +313,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Donjoy Ultrasling III</h3>
-                                        <div class="product-price">AUD $31.63</div>
+                                        <p class="product-name">Donjoy Ultrasling III</p>
+                                        <div>
+                                            <p class="product-price">AUD $31.6</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -313,8 +325,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Twist n Bend FlexBar</h3>
-                                        <div class="product-price">AUD $34.82</div>
+                                        <p class="product-name">Twist n Bend FlexBar</p>
+                                        <div>
+                                            <p class="product-price">AUD $34.82</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -323,29 +337,33 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Dura Tubing 100ft</h3>
-                                        <div class="product-price">AUD $99.00</div>
+                                        <p class="product-name">Dura Tubing 100ft</p>
+                                        <div>
+                                            <p class="product-price">AUD $99.00</p>
+                                        </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
                     </div>
-
-                    <div id="popular" class="product-tabcontent">
-                        <div class="product-content-inner">
-                            <div>
+                    <div class="product-tabcontent hidden" id="tab2">
+                        <div class="row justify-content-between">
+                            <div class="col-2">
                                 <img src="./assets/images/homepage/saller-banner.png" alt="saller banner"
                                     class="saller-banner">
                             </div>
-                            <div class="product-inner">
+                            <div class="product-inner col-10">
+
                                 <a href="#" class="product-block">
                                     <div class="product-img-block">
                                         <img src="./assets/images/homepage/pr-5.png" alt="Product Image"
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Donjoy Ultrasling III</h3>
-                                        <div class="product-price">AUD $206.25</div>
+                                        <p class="product-name">Donjoy Ultrasling III</p>
+                                        <div>
+                                            <p class="product-price">AUD $206.25</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -354,8 +372,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Donjoy Ultrasling III</h3>
-                                        <div class="product-price">AUD $31.63</div>
+                                        <p class="product-name">Donjoy Ultrasling III</p>
+                                        <div>
+                                            <p class="product-price">AUD $31.6</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -364,8 +384,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Twist n Bend FlexBar</h3>
-                                        <div class="product-price">AUD $34.82</div>
+                                        <p class="product-name">Twist n Bend FlexBar</p>
+                                        <div>
+                                            <p class="product-price">AUD $34.82</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -374,8 +396,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Dura Tubing 100ft</h3>
-                                        <div class="product-price">AUD $99.00</div>
+                                        <p class="product-name">Dura Tubing 100ft</p>
+                                        <div>
+                                            <p class="product-price">AUD $99.00</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -384,8 +408,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Gloves and Masks</h3>
-                                        <div class="product-price">AUD $15.18</div>
+                                        <p class="product-name">Gloves and Masks</p>
+                                        <div>
+                                            <p class="product-price">AUD $15.18</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -394,8 +420,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Chi Bolster</h3>
-                                        <div class="product-price">AUD $49.50</div>
+                                        <p class="product-name">Chi Bolster</p>
+                                        <div>
+                                            <p class="product-price">AUD $49.50</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -404,8 +432,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Powder Free Gloves</h3>
-                                        <div class="product-price">AUD $15.84</div>
+                                        <p class="product-name">Powder Free Gloves</p>
+                                        <div>
+                                            <p class="product-price">AUD $15.84</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -414,29 +444,33 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Solari Peri Cushion</h3>
-                                        <div class="product-price">AUD $100.00</div>
+                                        <p class="product-name">Solari Peri Cushion</p>
+                                        <div>
+                                            <p class="product-price">AUD $100.00</p>
+                                        </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
                     </div>
-
-                    <div id="top-rated" class="product-tabcontent">
-                        <div class="product-content-inner">
-                            <div>
+                    <div class="product-tabcontent hidden" id="tab3">
+                        <div class="row justify-content-between">
+                            <div class="col-2">
                                 <img src="./assets/images/homepage/saller-banner.png" alt="saller banner"
                                     class="saller-banner">
                             </div>
-                            <div class="product-inner">
+                            <div class="product-inner col-10">
+
                                 <a href="#" class="product-block">
                                     <div class="product-img-block">
                                         <img src="./assets/images/homepage/pr-3.png" alt="Product Image"
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Powder Free Gloves</h3>
-                                        <div class="product-price">AUD $15.84</div>
+                                        <p class="product-name">Powder Free Gloves</p>
+                                        <div>
+                                            <p class="product-price">AUD $15.84</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -445,8 +479,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Solari Peri Cushion</h3>
-                                        <div class="product-price">AUD $100.00</div>
+                                        <p class="product-name">Solari Peri Cushion</p>
+                                        <div>
+                                            <p class="product-price">AUD $100.00</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -455,8 +491,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Gloves and Masks</h3>
-                                        <div class="product-price">AUD $15.18</div>
+                                        <p class="product-name">Gloves and Masks</p>
+                                        <div>
+                                            <p class="product-price">AUD $15.18</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -465,8 +503,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Chi Bolster</h3>
-                                        <div class="product-price">AUD $49.50</div>
+                                        <p class="product-name">Chi Bolster</p>
+                                        <div>
+                                            <p class="product-price">AUD $49.50</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -475,8 +515,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Twist n Bend FlexBar</h3>
-                                        <div class="product-price">AUD $34.82</div>
+                                        <p class="product-name">Twist n Bend FlexBar</p>
+                                        <div>
+                                            <p class="product-price">AUD $34.82</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -485,18 +527,21 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Dura Tubing 100ft</h3>
-                                        <div class="product-price">AUD $99.00</div>
+                                        <p class="product-name">Dura Tubing 100ft</p>
+                                        <div>
+                                            <p class="product-price">AUD $99.00</p>
+                                        </div>
                                     </div>
-                                </a>
-                                <a href="#" class="product-block">
+                                </a><a href="#" class="product-block">
                                     <div class="product-img-block">
                                         <img src="./assets/images/homepage/pr-5.png" alt="Product Image"
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Donjoy Ultrasling III</h3>
-                                        <div class="product-price">AUD $206.25</div>
+                                        <p class="product-name">Donjoy Ultrasling III</p>
+                                        <div>
+                                            <p class="product-price">AUD $206.25</p>
+                                        </div>
                                     </div>
                                 </a>
                                 <a href="#" class="product-block">
@@ -505,8 +550,10 @@
                                             class="product-img">
                                     </div>
                                     <div class="product-description">
-                                        <h3 class="product-name">Donjoy Ultrasling III</h3>
-                                        <div class="product-price">AUD $31.63</div>
+                                        <p class="product-name">Donjoy Ultrasling III</p>
+                                        <div>
+                                            <p class="product-price">AUD $31.6</p>
+                                        </div>
                                     </div>
                                 </a>
                             </div>
@@ -514,21 +561,448 @@
                     </div>
                 </div>
             </div>
-            <div class="pr-banner-inner">
-                <a href="#" class="pr-banner">
-                    <div>
-                        <div class="pr-category-name">Massage Creams..</div>
-                        <h3 class="product-name fw-500 mb-1">Paraffin
-                            Soft White</h3>
-                        <h3 class="product-price">AUD $24.75</h3>
-                    </div>
-                </a>
-                <a href="#" class="pr-banner bg-pink"></a>
-                <a href="#" class="pr-banner bg-navy-blue"></a>
+            <div class="pr-category-main">
+                <div class="pr-inner-block">
+                    <a href="#" class="pr-banner">
+                        <div>
+                            <span class="pr-category-name">Massage Creams..</span>
+                            <p class="product-name fw-500 mb-1">Paraffin
+                                Soft White</p>
+                            <p class="product-price">AUD $24.75</p>
+                        </div>
+                        <div class="pr-img-block">
+                            <img src="./assets/images/homepage/pr-banner-1.png" alt="Product Image"
+                                class="pr-banner-img">
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-inner-block">
+                    <a href="#" class="pr-banner bg-pink">
+                        <div>
+                            <span class="pr-category-name">Massage Creams..</span>
+                            <p class="product-name fw-500 mb-1">Rock Rub</p>
+                            <p class="product-price">AUD $24.75</p>
+                        </div>
+                        <div class="pr-img-block">
+                            <img src="./assets/images/homepage/pr-banner-2.png" alt="Product Image"
+                                class="pr-banner-img">
+                        </div>
+                    </a>
+                </div>
+                <div class="pr-inner-block">
+                    <a href="#" class="pr-banner bg-navy-blue">
+                        <div>
+                            <span class="pr-category-name">Massage Creams..</span>
+                            <p class="product-name fw-500 mb-1">Premax Arnica Massage Cream</p>
+                            <p class="product-price">AUD $39.00</p>
+                        </div>
+                        <div class="pr-img-block">
+                            <img src="./assets/images/homepage/pr-banner-3.png" alt="Product Image"
+                                class="pr-banner-img">
+                        </div>
+                    </a>
+                </div>
             </div>
     </section>
+    <section class="about-section">
+        <div class="container">
+            <div>
+                <div class="about-head">
+                    <h3 class="about-head-text">ABOUT ACTIMAD AUSTRALIA</h3>
+                </div>
+                <p class="hero_sub_heading about-para">Actimed Australia is one of the leading wholesale distributors
+                    and
+                    physiotherapy suppliers of top quality branded medical products.</p>
+                <div class="about-btn-block">
+                    <a href="#" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sale-section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-5">
+                    <div class="sale-head">
+                        <h2>On Sale Products</h2>
+                        <div class="category-slider-btn">
+                            <button class="category-button-next"><img src="./assets/images/homepage/right-arrow.svg"
+                                    alt="right arrow"></button>
+                        </div>
+                    </div>
+                    <div class="sale-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="sale-slide-inner">
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-1.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Contour Pillow</p>
+                                            <div>
+                                                <p class="product-price">AUD $29.95</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-2.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Solari Clavicle..</p>
+                                            <div>
+                                                <p class="product-price">AUD $22.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-3.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Solari Posture with..</p>
+                                            <div>
+                                                <p class="product-price">AUD $27.50</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-4.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Otto Bock Thumb..V</p>
+                                            <div>
+                                                <p class="product-price">AUD $10.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sale-slide-inner">
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-3.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Solari Posture with..</p>
+                                            <div>
+                                                <p class="product-price">AUD $27.50</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-4.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Otto Bock Thumb..V</p>
+                                            <div>
+                                                <p class="product-price">AUD $10.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-1.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Contour Pillow</p>
+                                            <div>
+                                                <p class="product-price">AUD $29.95</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-2.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Solari Clavicle..</p>
+                                            <div>
+                                                <p class="product-price">AUD $22.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="sale-slide-inner">
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-2.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Solari Clavicle..</p>
+                                            <div>
+                                                <p class="product-price">AUD $22.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-1.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Contour Pillow</p>
+                                            <div>
+                                                <p class="product-price">AUD $29.95</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-4.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Otto Bock Thumb..V</p>
+                                            <div>
+                                                <p class="product-price">AUD $10.00</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                    <a href="#" class="product-block sale-product">
+                                        <div class="product-img-block">
+                                            <img src="./assets/images/homepage/sale-pr-3.png" alt="Product Image"
+                                                class="product-img">
+                                        </div>
+                                        <div class="product-description">
+                                            <p class="product-name">Solari Posture with..</p>
+                                            <div>
+                                                <p class="product-price">AUD $27.50</p>
+                                            </div>
+                                        </div>
+                                        <div class="product-sale-tag">sale</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="sale-banner-block">
+                        <img src="./assets/images/homepage/sale-banner.png" alt="banner" class="sale-banner">
+                        <div class="sale-text-block">
+                            <span class="banner-small-head">Foam Rollers</span>
+                            <h3>Gymnic Trigger Roll - Foam Rollers by Gymnic</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="collection-section">
+        <div class="container">
+            <div class="collection-inner">
+                <div class="row justify-content-between">
+                    <div class="col-7">
+                        <p>Practitioner Equipment</p>
+                        <h3>Luxo Globe 22W Circular - Misc Equipment</h3>
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="btn-secondary">See Collections</a>
+                    </div>
+                </div>
+                <div class="cln-object-1">
+                    <img src="./assets/images/homepage/collection-object-1.png" alt="object" class="cln-object-img">
+                </div>
+                <div class="cln-object-2">
+                    <img src="./assets/images/homepage/collection-object-3.png" alt="object" class="cln-object-img">
+                </div>
+                <div class="cln-object-3">
+                    <img src="./assets/images/homepage/collection-object-2.svg" alt="object" class="cln-object-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sale-section">
+        <div class="container">
+            <div class="brand-head">
+                <h2>Shop by Brands</h2>
+            </div>
+            <div class="brand-inner">
+                <div class="logo-prev-block">
+                    <button class="logo-button-prev"><img src="./assets/images/homepage/left-arrow.svg"
+                            alt="left arrow"></button>
+                </div>
+                <div class="brand-swiper swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="logo-slide-inner">
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-1.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-2.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-3.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-4.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-5.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-6.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-7.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-8.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-9.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-1.png" alt="Logo" class="logo-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="logo-slide-inner">
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-4.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-5.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-6.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-1.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-2.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-3.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-9.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-1.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-7.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-8.png" alt="Logo" class="logo-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="logo-slide-inner">
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-5.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-6.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-7.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-8.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-9.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-1.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-1.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-2.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-3.png" alt="Logo" class="logo-img">
+                                </div>
+                                <div class="logo-block">
+                                    <img src="./assets/images/homepage/logo-4.png" alt="Logo" class="logo-img">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-next-block">
+                    <button class="logo-button-next"><img src="./assets/images/homepage/right-arrow.svg"
+                            alt="right arrow"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/PlugIn/Jquery/jquery.min.js"></script>
     <script src="./assets/PlugIn/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/script/common.js"></script>
+    <script>
+        var swiper = new Swiper(".brand-swiper", {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },  
+            navigation: {
+                nextEl: ".logo-next-block",
+                prevEl: ".logo-prev-block",
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".sale-slider", {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".category-button-next",
+            },
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.product-tablinks').click(function () {
+                var tabId = $(this).data('tab');
+                $('.product-tablinks').removeClass('active');
+                $(this).addClass('active');
+                $('.product-tabcontent').removeClass('active');
+                $('#' + tabId).addClass('active');
+            });
+        });
+    </script>
+
 </body>
 
 </html>
