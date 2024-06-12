@@ -626,10 +626,8 @@ input:checked+.slider {
 
 .category-slider .swiper-slide {
     height: initial;
-}
 
-<<<<<<< HEAD
-=======
+}
 .slider-button{
     background-color: #E9E9E9;
     border-radius: 50%;
@@ -1439,12 +1437,9 @@ label {
     gap: 28px;
 }
 
-
-<<<<<<< HEAD
-
 .signin-input {
     padding: 20px 40px;
-=======
+}
 .logo-button-prev img,
 .logo-button-next img,
 .category-button-next img,
@@ -1454,7 +1449,6 @@ label {
 .desc_block{
     padding-bottom: 15px;
     border-bottom: 1px solid #727272;
->>>>>>> cdf3815e15f26d2889c1d707b65b52cc5b601a8d
 }
 .signin-input {
     padding: 40px;
@@ -1562,26 +1556,6 @@ label {
 .discricption-para {
     line-height: 35px;
 }
-<<<<<<< HEAD
-
-/* ////////////////////////////////////////////////////////////// */
-/* .swiper-slide {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} 
-
-=======
->>>>>>> cdf3815e15f26d2889c1d707b65b52cc5b601a8d
-.swiper-slide {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-<<<<<<< HEAD
-    position: relative;
-}*/
 
 .swiper-slide img {
     display: block;
@@ -1590,9 +1564,6 @@ label {
     object-fit: cover;
 }
 
-=======
-}
->>>>>>> cdf3815e15f26d2889c1d707b65b52cc5b601a8d
 .swiper-container {
     overflow: hidden;
 }
@@ -1625,7 +1596,6 @@ label {
     height: 100%;
     object-fit: cover;
 }
-<<<<<<< HEAD
 
 .product_img_slider .swiper-slide-thumb-active {
     opacity: 1;
@@ -1650,7 +1620,6 @@ label {
     object-fit: cover;
 }
 
-=======
 .prd-slider-btn {
     width: 35px !important;
     height: 35px !important;
@@ -1679,7 +1648,6 @@ label {
     font-size: 18px;
     margin-top: 10px;
 }
->>>>>>> cdf3815e15f26d2889c1d707b65b52cc5b601a8d
 
 @media screen and (max-width: 1024px) {
     .logo {
@@ -2168,7 +2136,6 @@ label {
     .prd-slider-btn::after {
         font-size: 14px !important;
     }
-<<<<<<< HEAD
 
     .product-tablinks {
         font-size: 14px;
@@ -2197,7 +2164,6 @@ label {
         padding: 6px 12px;
     }
 
-=======
     .form-container{
         padding: 50px 20px;
     }
@@ -2213,7 +2179,6 @@ label {
     .optionbox {
         padding: 35px 0;
     }
->>>>>>> cdf3815e15f26d2889c1d707b65b52cc5b601a8d
 }
 
 @media screen and (max-width: 375px) {

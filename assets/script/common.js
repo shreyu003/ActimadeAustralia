@@ -43,11 +43,10 @@ var categorySlider = new Swiper(".category-slider", {
     }
   }
 });
-<<<<<<< HEAD
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
     slidesPerView: 2,
-=======
+})
 var realatedSwiper = new Swiper(".realated-swiper", {
   slidesPerView: 6,
   slidesPerrow: 1,
@@ -91,7 +90,6 @@ var saleSlider = new Swiper(".sale-slider", {
 var brandSwiper = new Swiper(".brand-swiper", {
     // loop: true,
     slidesPerView: 6,
->>>>>>> cdf3815e15f26d2889c1d707b65b52cc5b601a8d
     grid: {
         rows: 2,
     },
@@ -237,7 +235,3 @@ var productMainBlock = new Swiper(".product_main_block", {
         document.getElementById('quantity').value = quantity;
     }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> cdf3815e15f26d2889c1d707b65b52cc5b601a8d
