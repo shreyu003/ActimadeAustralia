@@ -118,7 +118,20 @@ body {
 .bg-light {
     background-color: #f3f3f3;
 }
-
+.bg-cart-btn{
+    background-color: #e4573d;
+    color: #ffffff;
+    border: 1px solid #e4573d;
+    border-radius: 25px;
+    padding: 6px 26px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.bg-cart-btn:hover{
+    background-color: #fff;
+    color: #e4573d;
+}
 .text-center {
     text-align: center;
 }
