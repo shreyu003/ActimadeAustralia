@@ -43,10 +43,6 @@ var categorySlider = new Swiper(".category-slider", {
     }
   }
 });
-var saleSlider = new Swiper(".sale-slider", {
-    loop: true,
-    slidesPerView: 2,
-})
 var realatedSwiper = new Swiper(".realated-swiper", {
   slidesPerView: 6,
   slidesPerrow: 1,
@@ -75,16 +71,24 @@ var realatedSwiper = new Swiper(".realated-swiper", {
     }
   }
 });
-
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
-    autoplay: {
-    delay: 2500,
-        disableOnInteraction: false,
+    slidesPerView: 2,
+    grid: {
+        rows: 2,
     },
+    spaceBetween: 10,
     navigation: {
-        nextEl: ".sale-btn-next",
+        nextEl: ".sale-button-next",
     },
+    breakpoints: {
+      425: {
+        slidesPerView: 3
+      },
+      768: {
+        slidesPerView: 2
+      }
+    }
 });
 
 var brandSwiper = new Swiper(".brand-swiper", {
