@@ -43,9 +43,55 @@ var categorySlider = new Swiper(".category-slider", {
     }
   }
 });
+<<<<<<< HEAD
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
     slidesPerView: 2,
+=======
+var realatedSwiper = new Swiper(".realated-swiper", {
+  slidesPerView: 6,
+  slidesPerrow: 1,
+  spaceBetween: 30,
+  freeMode: true,
+  loop: true,
+  navigation: {
+    nextEl: ".related-prd-button-next",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    },
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 20
+    },
+    1024: {
+      slidesPerView: 6,
+      spaceBetween: 20
+    }
+  }
+});
+
+var saleSlider = new Swiper(".sale-slider", {
+    loop: true,
+    autoplay: {
+    delay: 2500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".sale-btn-next",
+    },
+});
+
+var brandSwiper = new Swiper(".brand-swiper", {
+    // loop: true,
+    slidesPerView: 6,
+>>>>>>> cdf3815e15f26d2889c1d707b65b52cc5b601a8d
     grid: {
         rows: 2,
     },
@@ -105,12 +151,64 @@ var brandSwiper = new Swiper(".brand-swiper", {
   }
 });
 
+var prdPageBrandSwiper = new Swiper(".prd-page-brand-swiper", {
+    slidesPerView: 6,
+    grid: {
+        rows: 2,
+    },
+    spaceBetween: 30,
+    navigation: {
+        nextEl: ".logo-next-block",
+        prevEl: ".logo-prev-block",
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      },
+      1364: {
+        slidesPerView: 6,
+        spaceBetween: 20
+      },
+    }
+});
+
 var productMainBlock = new Swiper(".product_main_block", {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 4,
     freeMode: true,
     watchSlidesProgress: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      },
+    }
   });
   var productImgSlider = new Swiper(".product_img_slider", {
     loop: true,
@@ -139,3 +237,7 @@ var productMainBlock = new Swiper(".product_main_block", {
         document.getElementById('quantity').value = quantity;
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> cdf3815e15f26d2889c1d707b65b52cc5b601a8d
