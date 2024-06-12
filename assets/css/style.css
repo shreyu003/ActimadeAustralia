@@ -1090,6 +1090,9 @@ label {
 .pb-3{
     padding-bottom: 30px;
 }
+.product-details .read_more_btn{
+    padding: 6px 40px;
+}
 .checkout-btn:hover {
     background-color: #a0a0a0;
 }
@@ -1116,8 +1119,8 @@ label {
 }
 
 
-.input-field::-webkit-outer-spin-button,
-.input-field::-webkit-inner-spin-button {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
@@ -1536,14 +1539,26 @@ label {
     font-weight: 600;
     letter-spacing: 1px;
 }
-.quantity_selector{
-    width: 50px;
-    background-color: transparent;
-    border: 1px solid #e6e4e4;
-    text-align: center;
-    padding: 10px 5px;
-    font-size: 18px;
+.quantity_selector_block{
     margin-top: 10px;
+    width: 100px;
+    border-radius: 25px;
+    padding: 6px 0;
+    border: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.quantity_selector{
+    font-size: 18px;
+    width: 40px;
+    text-align: center;
+    border: 0;
+}
+.arrow-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .text-trancate{
     white-space: nowrap; 
