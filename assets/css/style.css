@@ -146,7 +146,6 @@ a{
 .d-flex {
     display: flex;
 }
-<<<<<<< HEAD
 .bg-light {
     background-color: #f3f3f3;
 }
@@ -166,8 +165,8 @@ a{
 svg,
 .logo img,
 .cursor-pointer {
-=======
-
+    cursor: pointer;
+}
 .position-relative {
     position: relative;
 }
@@ -182,7 +181,6 @@ svg,
     align-items: center;
     justify-content: center;
     border: 0;
->>>>>>> 7046c96e1f467bfb4f0f7bdc8d7deaa244f72351
     cursor: pointer;
 }
 
@@ -219,27 +217,21 @@ nav {
     width: 130px;
     padding: 10px;
 }
-<<<<<<< HEAD
-=======
 
 .nav_bars {
     display: none;
 }
 
->>>>>>> 7046c96e1f467bfb4f0f7bdc8d7deaa244f72351
 .logo img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-<<<<<<< HEAD
 .nav_bars,
 .product-tabcontent,
 .hidden {
     display: none;
 }
-=======
->>>>>>> 7046c96e1f467bfb4f0f7bdc8d7deaa244f72351
 
 .navbar {
     width: 65%;
@@ -972,12 +964,6 @@ input:checked+.slider {
     align-items: center;
 }
 
-.image_block ul li:nth-child(1),
-.blog-image ul li:nth-child(2) {
-    border-right: 1px solid #858585;
-}
-
-
 .blog_share_link li:nth-child(1),
 .blog_share_link li:nth-child(2) {
     border-right: 1px solid #858585;
@@ -1296,34 +1282,6 @@ label {
     line-height: 36px;
     font-weight: 500;
 }
-
-/* .cln-object-img {
-    width: 100%;
-} */
-/* 
-.cln-object-1 {
-    position: absolute;
-    bottom: 0px;
-    top: auto;
-    right: 25%;
-    z-index: 2;
-} */
-
-/* .cln-object-2 {
-    position: absolute;
-    bottom: auto;
-    top: 25px;
-    right: 40%;
-    z-index: 1;
-}
-
-.cln-object-3 {
-    position: absolute;
-    top: auto;
-    bottom: 32px;
-    right: 0;
-    z-index: 1;
-} */
 
 .brand-head {
     margin-bottom: 38px;
@@ -1795,7 +1753,6 @@ footer{
     .register-content {
         width: 85%;
     }
-<<<<<<< HEAD
     .footer_links .col-3 ul li {
         padding: 5px 0;
     }
@@ -1808,9 +1765,6 @@ footer{
     .social_media_block{
         width: 60%;
     }
-=======
-
->>>>>>> 7046c96e1f467bfb4f0f7bdc8d7deaa244f72351
 }
 
 @media only screen and (max-width: 768px) {
@@ -1957,7 +1911,6 @@ footer{
     .section-space1 {
         padding: 40px 0;
     }
-<<<<<<< HEAD
     footer .w-60{
         width: 100%;
     }
@@ -1978,7 +1931,7 @@ footer{
     }
     .footer_links {
         padding-top: 50px;
-=======
+    }
 
     .product-tabcontent .col-2 {
         width: 30%;
@@ -2049,7 +2002,6 @@ footer{
 
     .about-para {
         width: 100% !important;
->>>>>>> 7046c96e1f467bfb4f0f7bdc8d7deaa244f72351
     }
 }
 
