@@ -44,7 +44,9 @@ body {
     font-family: "jost";
     overflow-x: hidden;
 }
-
+html{
+    overflow-x: hidden;
+}
 .container-fluid {
     width: 100%;
 }
@@ -121,7 +123,9 @@ a{
 .pt-4 {
     padding-top: 40px;
 }
-
+.me-2{
+    margin-right: 20px;
+}
 .pb-2 {
     padding-bottom: 10px;
 }
@@ -253,14 +257,8 @@ nav {
     align-items: center;
 }
 
-.navbar ul li:nth-child(2),
-.navbar ul li:nth-child(3) {
-    border-right: 1px solid #8f8f8f;
-    padding: 8px 25px 8px 0;
-}
-
 .serach_input_block {
-    width: 50%;
+    width: 55%;
     border: 1px solid #8f8f8f;
     border-radius: 6px;
     display: flex;
@@ -348,8 +346,8 @@ input:checked+.slider {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 2px;
-    right: 18px;
+    top: -5px;
+    right: -5px;
     background-color: #f69708;
     color: #ffffff;
     font-size: 12px;
@@ -448,8 +446,6 @@ input:checked+.slider {
 }
 
 .cart_wrapper {
-    display: none;
-    /* add by manthan */
     position: absolute;
     top: 0;
     right: -100%;
@@ -458,7 +454,6 @@ input:checked+.slider {
     background-color: #00000071;
     z-index: 5;
     overflow: hidden;
-    display: none;
     transition: 0.4s ease-in-out;
 }
 
@@ -1076,14 +1071,25 @@ label {
     background-color: #C6C6C6;
     border: 1px solid #C6C6C6;
     border-radius: 25px;
-    padding: 6px 25px;
-    
+    padding: 6px 40px;
     text-transform: capitalize;
     font-size: 14px;
     color: #000;
     margin-right: 10px;
 }
-
+.whishlist-btn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1cdcd;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.pb-3{
+    padding-bottom: 30px;
+}
 .checkout-btn:hover {
     background-color: #a0a0a0;
 }
@@ -1117,6 +1123,9 @@ label {
 }
 .signin-input {
     padding: 40px;
+}
+.signin-input .form-group{
+    width: 100%;
 }
 .signin-group {
     padding: 20px;
@@ -1652,7 +1661,7 @@ footer{
     border-radius: 50%;
     cursor: pointer;
 }
-.social_icon svg:hover{
+.social_icon:hover svg{
     animation: slide 1s ease;
 }
 .insta-icon{
