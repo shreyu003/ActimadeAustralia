@@ -34,6 +34,10 @@ var categorySlider = new Swiper(".category-slider", {
       spaceBetween: 20
     },
     1024: {
+      slidesPerView: 5,
+      spaceBetween: 20
+    },
+    1440: {
       slidesPerView: 6,
       spaceBetween: 20
     }
@@ -67,16 +71,24 @@ var realatedSwiper = new Swiper(".realated-swiper", {
     }
   }
 });
-
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
-    autoplay: {
-    delay: 2500,
-        disableOnInteraction: false,
+    slidesPerView: 2,
+    grid: {
+        rows: 2,
     },
+    spaceBetween: 10,
     navigation: {
-        nextEl: ".sale-btn-next",
+        nextEl: ".sale-button-next",
     },
+    breakpoints: {
+      425: {
+        slidesPerView: 3
+      },
+      768: {
+        slidesPerView: 2
+      }
+    }
 });
 
 var brandSwiper = new Swiper(".brand-swiper", {
@@ -85,15 +97,60 @@ var brandSwiper = new Swiper(".brand-swiper", {
     grid: {
         rows: 2,
     },
-    spaceBetween: 30,
+    spaceBetween: 10,
     // autoplay: {
-    //     delay: 2500,
+    // delay: 2500,
     //     disableOnInteraction: false,
     // },
     navigation: {
-        nextEl: ".logo-next-block",
-        prevEl: ".logo-prev-block",
+        nextEl: ".sale-button-next",
     },
+    breakpoints: {
+      425: {
+        slidesPerView: 3
+      },
+      768: {
+        slidesPerView: 2
+      }
+    }
+});
+var brandSwiper = new Swiper(".brand-swiper", {
+  loop: true,
+  slidesPerView: 5,
+  grid: {
+      rows: 2,
+  },
+  spaceBetween: 15,
+  autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+  },
+  navigation: {
+      nextEl: ".logo-next-block",
+      prevEl: ".logo-prev-block",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 20
+    },
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 20
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 20
+    },
+    1440: {
+      slidesPerView: 6,
+      spaceBetween: 20
+    }
+  }
 });
 
 var prdPageBrandSwiper = new Swiper(".prd-page-brand-swiper", {
@@ -182,4 +239,3 @@ var productMainBlock = new Swiper(".product_main_block", {
         document.getElementById('quantity').value = quantity;
     }
 }
-

@@ -86,10 +86,10 @@
                     <p class="section-heading">Shop By Categories</p>
                 </div>
                 <div class="category-slider-btn">
-                    <button class="category-button-prev slider-button">
+                    <button class="category-button-prev slider-prev-btn">
                         <img src="./assets/images/homepage/left-arrow.svg" alt="left arrow">
                     </button>
-                    <button class="category-button-next slider-button">
+                    <button class="category-button-next slider-next-btn">
                         <img src="./assets/images/homepage/right-arrow.svg" alt="right arrow">
                     </button>
                 </div>
@@ -631,7 +631,7 @@
 
     <section class="section-space1 about-section">
         <div class="container">
-            <div>
+            <div class="about-inner">
                 <div class="about-head">
                     <h3 class="about-head-text">ABOUT ACTIMAD AUSTRALIA</h3>
                 </div>
@@ -653,180 +653,191 @@
                     <div class="sale-head">
                         <p class="section-heading">On Sale Products</p>
                         <div class="category-slider-btn">
-                            <button class="slider-button sale-btn-next">
-                                <img src="./assets/images/homepage/right-arrow.svg" alt="right arrow">
-                            </button>
+                            <button class="sale-button-next slider-next-btn"><img
+                                    src="./assets/images/homepage/right-arrow.svg" alt="right arrow"></button>
                         </div>
                     </div>
                     <div class="sale-slider swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="sale-slide-inner">
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-1.png" alt="Product Image"
-                                                class="product-img">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-1.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Contour Pillow</p>
+                                        <div>
+                                            <p class="product-price">AUD $29.95</p>
                                         </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Contour Pillow</p>
-                                            <div>
-                                                <p class="product-price">AUD $29.95</p>
-                                            </div>
-                                        </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-2.png" alt="Product Image"
-                                                class="product-img">
-                                        </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Solari Clavicle..</p>
-                                            <div>
-                                                <p class="product-price">AUD $22.00</p>
-                                            </div>
-                                        </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-3.png" alt="Product Image"
-                                                class="product-img">
-                                        </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Solari Posture with..</p>
-                                            <div>
-                                                <p class="product-price">AUD $27.50</p>
-                                            </div>
-                                        </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-4.png" alt="Product Image"
-                                                class="product-img">
-                                        </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Otto Bock Thumb...</p>
-                                            <div>
-                                                <p class="product-price">AUD $10.00</p>
-                                            </div>
-                                        </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                </div>
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <div class="sale-slide-inner">
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-3.png" alt="Product Image"
-                                                class="product-img">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-2.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Solari Clavicle..</p>
+                                        <div>
+                                            <p class="product-price">AUD $22.00</p>
                                         </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Solari Posture with..</p>
-                                            <div>
-                                                <p class="product-price">AUD $27.50</p>
-                                            </div>
-                                        </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-4.png" alt="Product Image"
-                                                class="product-img">
-                                        </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Otto Bock Thumb...</p>
-                                            <div>
-                                                <p class="product-price">AUD $10.00</p>
-                                            </div>
-                                        </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-1.png" alt="Product Image"
-                                                class="product-img">
-                                        </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Contour Pillow</p>
-                                            <div>
-                                                <p class="product-price">AUD $29.95</p>
-                                            </div>
-                                        </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-2.png" alt="Product Image"
-                                                class="product-img">
-                                        </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Solari Clavicle..</p>
-                                            <div>
-                                                <p class="product-price">AUD $22.00</p>
-                                            </div>
-                                        </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                </div>
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <div class="sale-slide-inner">
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-2.png" alt="Product Image"
-                                                class="product-img">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-3.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Solari Posture with..</p>
+                                        <div>
+                                            <p class="product-price">AUD $27.50</p>
                                         </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Solari Clavicle..</p>
-                                            <div>
-                                                <p class="product-price">AUD $22.00</p>
-                                            </div>
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-4.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Otto Bock Thumb..V</p>
+                                        <div>
+                                            <p class="product-price">AUD $10.00</p>
                                         </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-1.png" alt="Product Image"
-                                                class="product-img">
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-3.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Solari Posture with..</p>
+                                        <div>
+                                            <p class="product-price">AUD $27.50</p>
                                         </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Contour Pillow</p>
-                                            <div>
-                                                <p class="product-price">AUD $29.95</p>
-                                            </div>
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-4.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Otto Bock Thumb..V</p>
+                                        <div>
+                                            <p class="product-price">AUD $10.00</p>
                                         </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-4.png" alt="Product Image"
-                                                class="product-img">
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-1.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Contour Pillow</p>
+                                        <div>
+                                            <p class="product-price">AUD $29.95</p>
                                         </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Otto Bock Thumb...</p>
-                                            <div>
-                                                <p class="product-price">AUD $10.00</p>
-                                            </div>
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-2.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Solari Clavicle..</p>
+                                        <div>
+                                            <p class="product-price">AUD $22.00</p>
                                         </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                    <a href="#" class="product-block sale-product">
-                                        <div class="product-img-block">
-                                            <img src="./assets/images/homepage/sale-pr-3.png" alt="Product Image"
-                                                class="product-img">
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-2.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Solari Clavicle..</p>
+                                        <div>
+                                            <p class="product-price">AUD $22.00</p>
                                         </div>
-                                        <div class="product-description">
-                                            <p class="product-name">Solari Posture with..</p>
-                                            <div>
-                                                <p class="product-price">AUD $27.50</p>
-                                            </div>
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-1.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Contour Pillow</p>
+                                        <div>
+                                            <p class="product-price">AUD $29.95</p>
                                         </div>
-                                        <div class="product-sale-tag">sale</div>
-                                    </a>
-                                </div>
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-4.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Otto Bock Thumb..V</p>
+                                        <div>
+                                            <p class="product-price">AUD $10.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="product-block sale-product">
+                                    <div class="product-img-block">
+                                        <img src="./assets/images/homepage/sale-pr-3.png" alt="Product Image"
+                                            class="product-img">
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Solari Posture with..</p>
+                                        <div>
+                                            <p class="product-price">AUD $27.50</p>
+                                        </div>
+                                    </div>
+                                    <div class="product-sale-tag">sale</div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -871,9 +882,8 @@
             </div>
             <div class="brand-inner">
                 <div class="logo-prev-block">
-                    <button class="logo-button-prev">
-                        <img src="./assets/images/homepage/left-arrow.svg" alt="left arrow">
-                    </button>
+                    <button class="logo-button-prev slider-prev-btn"><img src="./assets/images/homepage/left-arrow.svg"
+                            alt="left arrow"></button>
                 </div>
                 <div class="swiper brand-swiper">
                     <div class="swiper-wrapper">
@@ -971,9 +981,8 @@
                 </div>
 
                 <div class="logo-next-block">
-                    <button class="logo-button-next">
-                        <img src="./assets/images/homepage/right-arrow.svg" alt="right arrow">
-                    </button>
+                    <button class="logo-button-next slider-next-btn"><img src="./assets/images/homepage/right-arrow.svg"
+                            alt="right arrow"></button>
                 </div>
             </div>
         </div>
