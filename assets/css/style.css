@@ -155,21 +155,39 @@ a{
 .bg-light {
     background-color: #f3f3f3;
 }
-.bg-cart-btn{
+.jelly-button {
+    padding: 6px 30px;
+    font-size: 18px;
+    color: white;
     background-color: #e4573d;
-    color: #ffffff;
-    border: 1px solid #e4573d;
+    border: none;
     border-radius: 25px;
-    padding: 6px 26px;
-    text-transform: capitalize;
-    font-size: 14px;
+    cursor: pointer;
 }
-.bg-cart-btn:hover{
-    background-color: #fff;
-    color: #e4573d;
+@keyframes shake {
+    0% { 
+        transform: translateX(0); 
+    }
+    25% { 
+        transform: translateX(-6px); 
+    }
+    50% { 
+        transform: translateX(6px); 
+    }
+    75% { 
+        transform: translateX(-6px); 
+    }
+    100% { 
+        transform: translateX(0); 
+    }
+}
+
+.jelly-button:hover{
+    animation: shake 0.6s ease-in-out;
 }
 svg,
-.logo img,
+img,
+button,
 .cursor-pointer {
     cursor: pointer;
 }
@@ -402,15 +420,14 @@ input:checked+.slider {
 }
 
 .mobile_menu_wrapper {
-    position: absolute;
-    top: 0;
-    left: -100%;
     height: 100vh;
     width: 100%;
-    background-color: #00000071;
+    position: absolute;
+    top: 0;
+    left: 0;
     overflow: hidden;
     display: none;
-    transition: 0.4s ease-in-out;
+    backdrop-filter: brightness(0.5);
 }
 
 .mobile_menu {
@@ -419,7 +436,8 @@ input:checked+.slider {
     background-color: #ffffff;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -100%;
+    transition: 0.4s ease-in-out;
 }
 
 .mobilemenu_navlinks {
@@ -448,23 +466,24 @@ input:checked+.slider {
 .cart_wrapper {
     position: absolute;
     top: 0;
-    right: -100%;
+    right: 0;
     height: 100vh;
     width: 100%;
-    background-color: #00000071;
     z-index: 5;
     overflow: hidden;
-    transition: 0.4s ease-in-out;
+    display: none;
+    backdrop-filter: brightness(0.5);
 }
 
 .cart_block {
     overflow-x: hidden;
     width: 30%;
+    height: 100%;
     background-color: #fff;
     position: absolute;
-    right: 0;
+    right: -100%;
     top: 0;
-    height: 100%;
+    transition: 0.4s ease-in-out;
 }
 
 .product_cart_section {
@@ -1066,12 +1085,11 @@ label {
     
     color: #0000ff;
 }
-
 .checkout-btn {
     background-color: #C6C6C6;
     border: 1px solid #C6C6C6;
     border-radius: 25px;
-    padding: 6px 40px;
+    padding: 6px 26px;
     text-transform: capitalize;
     font-size: 14px;
     color: #000;
@@ -1091,7 +1109,7 @@ label {
     padding-bottom: 30px;
 }
 .product-details .read_more_btn{
-    padding: 6px 40px;
+    padding: 8px 40px;
 }
 .checkout-btn:hover {
     background-color: #a0a0a0;
@@ -1387,20 +1405,6 @@ input::-webkit-inner-spin-button {
     border: none;
     font-size: 1.5rem;
 }
-
-#quantity {
-    width: 60px;
-    padding: 10px 0;
-    font-size: 1.5rem;
-    text-align: center;
-    border: none;
-    background-color: #f3f3f3;
-}
-
-.quantity-btn:active {
-    background-color: #ddd;
-}
-
 .add-to-cart-btn {
     background-color: #E4573D;
     border: 2px solid #E4573D;
@@ -1548,12 +1552,14 @@ input::-webkit-inner-spin-button {
     background-color: #ffffff;
     display: flex;
     justify-content: center;
+    border: 1px solid #c1c1c1;
 }
 .quantity_selector{
     font-size: 18px;
     width: 40px;
     text-align: center;
     border: 0;
+    background-color: transparent;
 }
 .arrow-group{
     display: flex;
@@ -1705,7 +1711,7 @@ footer{
     100%{
       transform: translateX(0);
     }
-  }
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -1740,8 +1746,8 @@ footer{
     .cart_count {
         width: 16px;
         height: 16px;
-        top: 4px;
-        right: 20px;
+        top: -4px;
+        right: -4px;
     }
 
     .elips_img_block {
@@ -1800,6 +1806,9 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
+    .logo {
+        width: 120px;
+    }
     .mobile_menu {
         display: block;
         overflow-x: hidden;
@@ -1919,11 +1928,13 @@ footer{
         width: 100%;
     }
     .product-details {
-        width: 70%;
+        width: 75%;
+    }
+    .me-2 {
+        margin-right: 10px;
     }
     .quantity_selector {
         width: 45px;
-        padding: 14px 0px;
     }
     .desc-img{
         width: 80%;
@@ -2038,7 +2049,9 @@ footer{
 }
 
 @media only screen and (max-width: 425px) {
-
+    .logo {
+        width: 110px;
+    }
     .slider-next-btn,
     .slider-prev-btn {
         width: 36px;
@@ -2322,7 +2335,9 @@ footer{
     .cart_block {
         width: 95%;
     }
-
+    .logo {
+        width: 100px;
+    }
     .elips_img_block {
         width: 300px;
         height: 300px;

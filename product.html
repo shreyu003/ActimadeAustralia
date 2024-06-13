@@ -81,20 +81,20 @@
                                 </div>
                             </li>
                             <li class="pb-3">
-                                <a href="#" class="read_more_btn me-2" id="share-btn"> share </a>
-                                <a href="#" class="checkout-btn" id="print-btn"> print </a>
+                                <button class="read_more_btn me-2" onclick="shareBtn()"> share </button>
+                                <button class="checkout-btn" onclick="printBtn()"> print </button>
                             </li>
                             <li>
                                 <p class="product-stock-status">IN STOCK</p>
                             </li>
                             <li>
                                 <div class="quantity_selector_block">
-                                    <input type="number" class="quantity_selector" value="1">
+                                    <input type="number" class="quantity_selector" value="1" id="quantity">
                                     <div class="arrow-group">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="7" viewBox="0 0 14 7" fill="none">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 14 7" fill="none" onclick="increment()">
                                             <path d="M14 7H0L7 0L14 7Z" fill="#696969"/>
                                         </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 14 8" fill="none" onclick="decrement()">
                                             <path d="M14 0.199997H0L7 7.2L14 0.199997Z" fill="#696969"/>
                                         </svg>
                                     </div>
@@ -102,7 +102,7 @@
                             </li>
                             <li class="py-3 d-flex align-items-center">
                                 <div>
-                                    <a href="#" class="bg-cart-btn"> add to cart </a>
+                                    <button class="jelly-button"> add to cart </button>
                                 </div>
                                 <div>
                                     <a href="#" class="whishlist-btn">
@@ -379,6 +379,7 @@
 
     <div id="footer"></div>
 
+    <script src="./assets/PlugIn/Jquery/jquery.min.js"></script>
     <script src="./assets/PlugIn/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/script/common.js"></script>
     <script src="./assets/script/getHeader&Footer.js"></script>
