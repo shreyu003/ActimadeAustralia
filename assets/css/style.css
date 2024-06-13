@@ -175,8 +175,6 @@ a {
 
 .bg-cart-btn{
     padding: 8px 30px;
-    padding: 6px 30px;
-    font-size: 18px;
     color: white;
     background-color: #e4573d;
     border: 1px solid #e4573d;
@@ -1667,14 +1665,6 @@ input::-webkit-inner-spin-button {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
-}
-.quantity_selector {
-    width: 50px;
-    background-color: transparent;
-    border: 1px solid #e6e4e4;
-    text-align: center;
-    padding: 10px 5px;
-    font-size: 18px;
 }
 
 .quantity_selector_block {
