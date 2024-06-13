@@ -169,26 +169,18 @@ a {
 .bg-light {
     background-color: #f3f3f3;
 }
-<<<<<<< HEAD
 
-.bg-cart-btn {
-=======
-.jelly-button {
-    padding: 6px 30px;
-    font-size: 18px;
-    color: white;
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
+.bg-cart-btn{
+    padding: 8px 30px;
     background-color: #e4573d;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
+    border: 1px solid #e4573d;
+    color: #ffffff;
+    text-transform: capitalize;
+    border-radius: 50px;
 }
-<<<<<<< HEAD
-
 .bg-cart-btn:hover {
-    background-color: #fff;
-    color: #e4573d;
-=======
+    animation: shake 0.6s ease-in-out;
+}
 @keyframes shake {
     0% { 
         transform: translateX(0); 
@@ -206,12 +198,6 @@ a {
         transform: translateX(0); 
     }
 }
-
-.jelly-button:hover{
-    animation: shake 0.6s ease-in-out;
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
-}
-
 svg,
 img,
 button,
@@ -404,10 +390,6 @@ input:checked+.slider {
 
 .btn-reg-sign {
     padding: 4px 12px;
-<<<<<<< HEAD
-
-=======
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
     border-radius: 5px;
     font-family: 'jost';
     font-weight: 500;
@@ -464,7 +446,7 @@ input:checked+.slider {
     left: 50%;
     transform: translate(-50%, 0);
     display: none;
-    z-index: 5;
+    z-index: 12;
 }
 .sub_header_menu-wrapper{
     padding: 50px 30px;
@@ -543,11 +525,17 @@ input:checked+.slider {
     top: 0;
     transition: 0.4s ease-in-out;
 }
-
+.cartCloseBtn{
+    transition: 1s all;
+}
+.cartCloseBtn:hover{
+    transform: rotate(360deg);
+}
 .product_cart_section {
     height: 74% !important;
     overflow-y: auto;
     overflow-x: hidden;
+    box-shadow: inset 0 10px 15px 0 #efeded, inset 0 -10px 15px 0 #efeded;
 }
 
 .product_cart_section::-webkit-scrollbar {
@@ -1153,22 +1141,13 @@ label {
 }
 
 .forgot-password a {
-<<<<<<< HEAD
-
-=======
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
     color: #0000ff;
 }
 .checkout-btn {
     background-color: #C6C6C6;
     border: 1px solid #C6C6C6;
     border-radius: 25px;
-<<<<<<< HEAD
-    padding: 6px 25px;
-
-=======
-    padding: 6px 26px;
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
+    padding: 8px 40px;
     text-transform: capitalize;
     font-size: 14px;
     color: #000;
@@ -1209,7 +1188,6 @@ label {
     border: 2px solid #D9D9D9;
     border-radius: 3px;
 }
-
 ::placeholder {
     text-transform: capitalize;
     color: #969696;
@@ -1225,13 +1203,9 @@ input::-webkit-inner-spin-button {
 .signin-input {
     padding: 40px;
 }
-<<<<<<< HEAD
-
-=======
 .signin-input .form-group{
     width: 100%;
 }
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
 .signin-group {
     padding: 20px;
 }
@@ -1579,7 +1553,8 @@ input::-webkit-inner-spin-button {
     object-fit: cover;
 }
 
-.swiper-container {
+.swiper-container,
+.realated-swiper {
     overflow: hidden;
 }
 
@@ -1664,18 +1639,7 @@ input::-webkit-inner-spin-button {
     font-weight: 600;
     letter-spacing: 1px;
 }
-<<<<<<< HEAD
-
-.quantity_selector {
-    width: 50px;
-    background-color: transparent;
-    border: 1px solid #e6e4e4;
-    text-align: center;
-    padding: 10px 5px;
-    font-size: 18px;
-=======
 .quantity_selector_block{
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
     margin-top: 10px;
     width: 100px;
     border-radius: 25px;
@@ -1786,14 +1750,11 @@ footer {
 .footer_links .col-3 ul {
     padding-top: 20px;
 }
-<<<<<<< HEAD
-
 .footer_links .col-3 ul li {
     padding: 10px 0;
-=======
+}
 .footer_links .col-3 ul li{
     padding: 5px 0;
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
 }
 
 .info-link {
@@ -1842,12 +1803,7 @@ footer {
     border-radius: 50%;
     cursor: pointer;
 }
-<<<<<<< HEAD
-
-.social_icon svg:hover {
-=======
 .social_icon:hover svg{
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
     animation: slide 1s ease;
 }
 
@@ -1888,7 +1844,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
     .logo {
-        width: 100px;
+        width: 120px;
     }
 
     .logo:nth-child(1) {
@@ -1900,7 +1856,7 @@ footer {
     }
 
     .serach_input_block {
-        width: 40%;
+        width: 50%;
     }
 
     .cart_block {
