@@ -43,6 +43,7 @@
 body {
     font-family: "jost";
 }
+
 .container-fluid {
     width: 100%;
 }
@@ -131,9 +132,11 @@ a {
 .pt-4 {
     padding-top: 40px;
 }
-.me-2{
+
+.me-2 {
     margin-right: 20px;
 }
+
 .pb-2 {
     padding-bottom: 10px;
 }
@@ -169,47 +172,46 @@ a {
 .bg-light {
     background-color: #f3f3f3;
 }
-<<<<<<< HEAD
 
-.bg-cart-btn {
-=======
 .jelly-button {
     padding: 6px 30px;
     font-size: 18px;
     color: white;
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
     background-color: #e4573d;
     border: none;
     border-radius: 25px;
     cursor: pointer;
 }
-<<<<<<< HEAD
 
 .bg-cart-btn:hover {
     background-color: #fff;
     color: #e4573d;
-=======
+}
+
 @keyframes shake {
-    0% { 
-        transform: translateX(0); 
+    0% {
+        transform: translateX(0);
     }
-    25% { 
-        transform: translateX(-6px); 
+
+    25% {
+        transform: translateX(-6px);
     }
-    50% { 
-        transform: translateX(6px); 
+
+    50% {
+        transform: translateX(6px);
     }
-    75% { 
-        transform: translateX(-6px); 
+
+    75% {
+        transform: translateX(-6px);
     }
-    100% { 
-        transform: translateX(0); 
+
+    100% {
+        transform: translateX(0);
     }
 }
 
-.jelly-button:hover{
+.jelly-button:hover {
     animation: shake 0.6s ease-in-out;
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
 }
 
 svg,
@@ -404,10 +406,6 @@ input:checked+.slider {
 
 .btn-reg-sign {
     padding: 4px 12px;
-<<<<<<< HEAD
-
-=======
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
     border-radius: 5px;
     font-family: 'jost';
     font-weight: 500;
@@ -441,9 +439,11 @@ input:checked+.slider {
     padding: 0 50px;
     border: 1px solid #d1d1d1;
 }
-.header-fixed_block li{
+
+.header-fixed_block li {
     padding: 15px 0;
 }
+
 .navlinks {
     text-transform: capitalize;
     color: #000000;
@@ -453,10 +453,12 @@ input:checked+.slider {
     color: #396393;
     text-decoration: underline;
 }
-.category-link:hover .sub_header_menu{
+
+.category-link:hover .sub_header_menu {
     display: block;
 }
-.sub_header_menu{
+
+.sub_header_menu {
     width: 90%;
     background-color: #00000000;
     position: absolute;
@@ -466,7 +468,8 @@ input:checked+.slider {
     display: none;
     z-index: 5;
 }
-.sub_header_menu-wrapper{
+
+.sub_header_menu-wrapper {
     padding: 50px 30px;
     margin-top: 10px;
     width: 100%;
@@ -474,9 +477,11 @@ input:checked+.slider {
     background-color: #ffffff;
     border-radius: 5px;
 }
-.sub_header_menu-inner li{
+
+.sub_header_menu-inner li {
     padding: 8px 0;
 }
+
 .mobile_menu_wrapper {
     height: 100vh;
     width: 100%;
@@ -684,9 +689,11 @@ input:checked+.slider {
     justify-content: space-between;
     gap: 32px;
 }
-.category-slider{
+
+.category-slider {
     overflow-x: hidden;
 }
+
 .category-slider-btn {
     display: flex;
     align-items: center;
@@ -1153,28 +1160,21 @@ label {
 }
 
 .forgot-password a {
-<<<<<<< HEAD
-
-=======
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
     color: #0000ff;
 }
+
 .checkout-btn {
     background-color: #C6C6C6;
     border: 1px solid #C6C6C6;
     border-radius: 25px;
-<<<<<<< HEAD
-    padding: 6px 25px;
-
-=======
     padding: 6px 26px;
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
     text-transform: capitalize;
     font-size: 14px;
     color: #000;
     margin-right: 10px;
 }
-.whishlist-btn{
+
+.whishlist-btn {
     width: 40px;
     height: 40px;
     display: flex;
@@ -1184,12 +1184,15 @@ label {
     border-radius: 50%;
     margin-left: 15px;
 }
-.pb-3{
+
+.pb-3 {
     padding-bottom: 30px;
 }
-.product-details .read_more_btn{
+
+.product-details .read_more_btn {
     padding: 8px 40px;
 }
+
 .checkout-btn:hover {
     background-color: #a0a0a0;
 }
@@ -1225,13 +1228,11 @@ input::-webkit-inner-spin-button {
 .signin-input {
     padding: 40px;
 }
-<<<<<<< HEAD
 
-=======
-.signin-input .form-group{
+.signin-input .form-group {
     width: 100%;
 }
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
+
 .signin-group {
     padding: 20px;
 }
@@ -1517,6 +1518,7 @@ input::-webkit-inner-spin-button {
     border: none;
     font-size: 1.5rem;
 }
+
 .add-to-cart-btn {
     background-color: #E4573D;
     border: 2px solid #E4573D;
@@ -1664,7 +1666,6 @@ input::-webkit-inner-spin-button {
     font-weight: 600;
     letter-spacing: 1px;
 }
-<<<<<<< HEAD
 
 .quantity_selector {
     width: 50px;
@@ -1673,9 +1674,9 @@ input::-webkit-inner-spin-button {
     text-align: center;
     padding: 10px 5px;
     font-size: 18px;
-=======
-.quantity_selector_block{
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
+}
+
+.quantity_selector_block {
     margin-top: 10px;
     width: 100px;
     border-radius: 25px;
@@ -1686,14 +1687,16 @@ input::-webkit-inner-spin-button {
     justify-content: center;
     border: 1px solid #c1c1c1;
 }
-.quantity_selector{
+
+.quantity_selector {
     font-size: 18px;
     width: 40px;
     text-align: center;
     border: 0;
     background-color: transparent;
 }
-.arrow-group{
+
+.arrow-group {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1786,14 +1789,14 @@ footer {
 .footer_links .col-3 ul {
     padding-top: 20px;
 }
-<<<<<<< HEAD
+
 
 .footer_links .col-3 ul li {
     padding: 10px 0;
-=======
-.footer_links .col-3 ul li{
+}
+
+.footer_links .col-3 ul li {
     padding: 5px 0;
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
 }
 
 .info-link {
@@ -1842,12 +1845,10 @@ footer {
     border-radius: 50%;
     cursor: pointer;
 }
-<<<<<<< HEAD
 
-.social_icon svg:hover {
-=======
-.social_icon:hover svg{
->>>>>>> 4e553848078ad24143440ff21f73cbd76f67d7da
+
+
+.social_icon:hover svg {
     animation: slide 1s ease;
 }
 
@@ -2003,6 +2004,7 @@ footer {
     .logo {
         width: 120px;
     }
+
     .mobile_menu {
         display: block;
         overflow-x: hidden;
@@ -2123,6 +2125,7 @@ footer {
     .product-details {
         width: 75%;
     }
+
     .me-2 {
         margin-right: 10px;
     }
@@ -2257,6 +2260,7 @@ footer {
     .logo {
         width: 110px;
     }
+
     .slider-next-btn,
     .slider-prev-btn {
         width: 36px;
@@ -2579,9 +2583,11 @@ footer {
     .cart_block {
         width: 95%;
     }
+
     .logo {
         width: 100px;
     }
+
     .elips_img_block {
         width: 300px;
         height: 300px;
