@@ -2027,7 +2027,9 @@ footer {
         top: -4px;
         right: -4px;
     }
-
+    .mobilemenu_navlinks .switch{
+        display: none;
+    }
     .btn-reg-sign {
         display: none;
     }
@@ -2242,7 +2244,9 @@ footer {
     .logo {
         width: 110px;
     }
-
+    .mobilemenu_navlinks .switch{
+        display: block;
+    }
     .slider-next-btn,
     .slider-prev-btn {
         width: 36px;
