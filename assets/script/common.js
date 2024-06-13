@@ -85,9 +85,6 @@ var saleSlider = new Swiper(".sale-slider", {
       425: {
         slidesPerView: 3
       },
-      768: {
-        slidesPerView: 2
-      }
     }
 });
 
@@ -110,7 +107,7 @@ var brandSwiper = new Swiper(".brand-swiper", {
         slidesPerView: 3
       },
       768: {
-        slidesPerView: 2
+        slidesPerView: 3
       }
     }
 });
