@@ -80,6 +80,7 @@ var saleSlider = new Swiper(".sale-slider", {
     spaceBetween: 10,
     navigation: {
         nextEl: ".sale-button-next",
+         prevEl: ".sale-button-prev",
     },
     breakpoints: {
       425: {
