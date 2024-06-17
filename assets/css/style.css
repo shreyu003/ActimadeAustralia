@@ -1285,7 +1285,7 @@ input::-webkit-inner-spin-button {
 }
 
 .product-tab-left-block {
-    width: 25%;
+    width: 20%;
 }
 
 .product-tab-right-block {
@@ -1309,7 +1309,7 @@ input::-webkit-inner-spin-button {
 
 .about-head {
     background-color: #EACD76;
-    padding: 6px 13px;
+    padding: 10px 20px;
     display: block;
     margin: 0 auto;
     width: fit-content;
