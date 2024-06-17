@@ -26,6 +26,14 @@ $(document).ready(function(){
       $('.cart_wrapper').hide();
     }, 300);
   });
+
+  $('.product-tablinks').click(function () {
+    var tabId = $(this).data('tab');
+    $('.product-tablinks').removeClass('active');
+    $(this).addClass('active');
+    $('.product-tabcontent').removeClass('active');
+    $('#' + tabId).addClass('active');
+  });
 });
 
 function printBtn(){
