@@ -1562,7 +1562,7 @@ input::-webkit-inner-spin-button {
 }
 
 .product-code {
-    padding: 20px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 .discricption {
@@ -1686,6 +1686,8 @@ input::-webkit-inner-spin-button {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
+    border-bottom: 1px solid #969696;
+    padding-bottom: 5px;
 }
 
 .quantity_selector_block {
@@ -2926,7 +2928,7 @@ switch-checkbox:focus+.slider {
     transform: translate(50%, -50%);
     top: 50%;
     left: 0;
-    font-size: 9px;
+    font-size: 11px;
     user-select: none;
 }
 
@@ -2936,7 +2938,7 @@ switch-checkbox:focus+.slider {
     transform: translate(-50%, -50%);
     top: 50%;
     right: 0;
-    font-size: 9px;
+    font-size: 11px;
     user-select: none;
 }
 
