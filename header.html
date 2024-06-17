@@ -11,7 +11,7 @@
 
 <body>
 
-    <section>
+    <header>
         <div class=" container-fluid announcement_bar" id="announceBar">
             <p> Welcome to the professional physiotherapy Medicine Wholesalers </p>
         </div>
@@ -402,10 +402,44 @@
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
     <script src="./assets/PlugIn/Jquery/jquery.min.js"></script>
-    <script src="./assets/script/custome-javascript.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.mobileMenuOpenBtn').click(function(){
+                $('body').css('overflow','hidden');
+                $('.mobile_menu_wrapper').show();
+                setTimeout(function(){
+                $('.mobile_menu').css('left', '0%');
+                }, 300);
+            });
+
+            $('.mobileMenuCloseBtn').click(function(){
+                $('body').css('overflow','auto');
+                $('.mobile_menu').css('left', '-100%');
+                setTimeout(function(){
+                $('.mobile_menu_wrapper').hide();
+                }, 300);
+            });
+            
+            $('.cartOpenBtn').click(function(){
+                $('body').css('overflow','hidden');
+                $('.cart_wrapper').show();
+                setTimeout(function(){
+                $('.cart_block').css('right', '0%');
+                }, 300);
+            });
+
+            $('.cartCloseBtn').click(function(){
+                $('body').css('overflow','auto');
+                $('.cart_block').css('right', '-100%');
+                setTimeout(function(){
+                $('.cart_wrapper').hide();
+                }, 300);
+            });
+        });
+    </script>
 </body>
 
 </html>
