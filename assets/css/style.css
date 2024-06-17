@@ -394,7 +394,7 @@ input:checked+.slider {
     justify-content: center;
     position: absolute;
     top: -5px;
-    right: -5px;
+    right: -6px;
     background-color: #f69708;
     color: #ffffff;
     font-size: 12px;
@@ -494,8 +494,8 @@ input:checked+.slider {
     overflow: hidden;
     display: none;
     backdrop-filter: brightness(0.5);
+    z-index: 5;
 }
-
 .mobile_menu {
     width: 40%;
     height: 100%;
@@ -552,11 +552,13 @@ input:checked+.slider {
     transition: 0.4s ease-in-out;
 }
 
-.cartCloseBtn {
+.cartCloseBtn,
+.mobileMenuCloseBtn{
     transition: 1s all;
 }
 
-.cartCloseBtn:hover {
+.cartCloseBtn:hover,
+.mobileMenuCloseBtn:hover {
     transform: rotate(360deg);
 }
 
@@ -664,6 +666,7 @@ input:checked+.slider {
     font-size: 24px;
     line-height: 36px;
     font-weight: 500;
+    margin-top: 20px;
 }
 
 .announcebar_remove-btn {
@@ -1154,7 +1157,8 @@ input:checked+.slider {
 }
 
 .btn-group-checkout {
-    padding-top: 20px;
+    padding-top: 10px;
+    display: flex;
 }
 
 .checkout-head {
@@ -1391,7 +1395,12 @@ input::-webkit-inner-spin-button {
     position: relative;
     height: 620px;
 }
-
+.banner-small-head{
+    padding: 5px 20px;
+    font-weight: 600;
+    background-color: #487cb7;
+    color: #fff;
+}
 .sale-banner {
     width: 100%;
     height: 100%;
@@ -1805,7 +1814,7 @@ footer {
 }
 
 .footer_map {
-    padding: 30px 40px 0;
+    padding: 30px 0 0 40px;
     display: flex;
     align-items: center;
 }
@@ -1839,6 +1848,7 @@ footer {
 
 .reserved_text-block {
     display: flex;
+    justify-content: space-between;
     padding: 50px 0 12px;
     border-bottom: 1px solid #969696;
 }
@@ -1867,9 +1877,7 @@ footer {
     background-color: #ffffff;
     border-radius: 50%;
     cursor: pointer;
-}
-.social_icon{
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .social_icon:hover svg {
@@ -1933,7 +1941,7 @@ footer {
     }
 
     .product_cart_section {
-        height: 71% !important;
+        height: 77% !important;
     }
 
     .cart_inner_btn {
@@ -2004,13 +2012,10 @@ footer {
         height: 180px;
     }
 
-    .social_media_block {
-        width: 60%;
-    }
-
     .hero_sub_heading {
         font-size: 22px;
         line-height: 28px;
+        width: 80%;
     }
 
     .hero-banner-head-tag {
@@ -2021,6 +2026,9 @@ footer {
 
     .product-block {
         padding: 10px 5px;
+    }
+    .sale-banner-block {
+        height: 582px;
     }
 }
 
@@ -2207,10 +2215,6 @@ footer {
         border-right: 0;
     }
 
-    .social_media_block {
-        width: 75%;
-    }
-
     .footer_links {
         padding-top: 50px;
     }
@@ -2314,7 +2318,7 @@ footer {
     }
 
     .navbar {
-        width: 60%;
+        width: 56%;
     }
 
     .navbar ul {
@@ -2462,7 +2466,7 @@ footer {
     }
 
     .hero_sub_heading {
-        width: 75%;
+        width: 60%;
         max-width: 100%;
         font-size: 18px;
         line-height: 24px;
@@ -2491,8 +2495,14 @@ footer {
 
     .product-tab-inner {
         flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
-
+    .saller-banner {
+        width: 50%;
+    }
+    .sale-banner-block {
+        height: 345px;
+    }
     .product-tab-left-block {
         width: 100%;
         margin: 10px 0;
@@ -2592,10 +2602,16 @@ footer {
     .lower_footer .justify-content-end {
         justify-content: normal;
     }
-
     .social_media_block {
-        width: 100%;
-        padding: 20px 0;
+        padding-top: 10px;
+        justify-content: flex-start;
+    }
+    .reserved_text-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .reserved_text-block p:nth-child(2){
+        padding-top: 20px;
     }
 }
 
@@ -2632,6 +2648,15 @@ footer {
     .footer_heading-block li {
         width: 47%;
         margin: 8px 8px 0 0;
+    }
+    .product_cart_section {
+        height: 71% !important;
+    }
+    .sale-banner-block {
+        height: 300px;
+    }
+    .banner-heading {
+        font-size: 16px;
     }
 }
 
@@ -2714,6 +2739,12 @@ footer {
     .footer_heading-block li {
         width: 47%;
         margin: 6px 6px 0 0;
+    }
+    .sale-banner-block {
+        height: 260px;
+    }
+    .banner-heading {
+        padding: 0 20px;
     }
 }
 
