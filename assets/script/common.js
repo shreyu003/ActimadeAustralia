@@ -80,37 +80,38 @@ var saleSlider = new Swiper(".sale-slider", {
     spaceBetween: 10,
     navigation: {
         nextEl: ".sale-button-next",
+         prevEl: ".sale-button-prev",
     },
     breakpoints: {
       425: {
-        slidesPerView: 3
+        slidesPerView: 2
       },
     }
 });
 
-var brandSwiper = new Swiper(".brand-swiper", {
+// var brandSwiper = new Swiper(".brand-swiper", {
     // loop: true,
-    slidesPerView: 6,
-    grid: {
-        rows: 2,
-    },
-    spaceBetween: 10,
+    // slidesPerView: 6,
+    // grid: {
+    // rows: 2,
+    // },
+    // spaceBetween: 10,
     // autoplay: {
     // delay: 2500,
     //     disableOnInteraction: false,
     // },
-    navigation: {
-        nextEl: ".sale-button-next",
-    },
-    breakpoints: {
-      425: {
-        slidesPerView: 3
-      },
-      768: {
-        slidesPerView: 3
-      }
-    }
-});
+//     navigation: {
+//         nextEl: ".sale-button-next",
+//     },
+//     breakpoints: {
+//       425: {
+//         slidesPerView: 3
+//       },
+//       768: {
+//         slidesPerView: 3
+//       }
+//     }
+// });
 var brandSwiper = new Swiper(".brand-swiper", {
   loop: true,
   slidesPerView: 5,
