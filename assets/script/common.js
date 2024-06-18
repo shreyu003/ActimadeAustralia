@@ -73,7 +73,7 @@ var realatedSwiper = new Swiper(".realated-swiper", {
 });
 var saleSlider = new Swiper(".sale-slider", {
     loop: true,
-    slidesPerView: 2,
+    slidesPerView: 5,
     grid: {
         rows: 2,
     },
@@ -86,6 +86,9 @@ var saleSlider = new Swiper(".sale-slider", {
       425: {
         slidesPerView: 2
       },
+      1024: {
+        slidesPerView: 5
+      }
     }
 });
 
