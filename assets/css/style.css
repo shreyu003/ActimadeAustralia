@@ -146,7 +146,6 @@ a {
 .pb-2 {
     padding-bottom: 10px;
 }
-
 .text-center {
     text-align: center;
 }
@@ -280,7 +279,7 @@ nav {
 
 .logo {
     width: 130px;
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .nav_bars {
@@ -956,20 +955,13 @@ nav {
     grid-gap: 24px
 }
 
-.pr-inner-block {
-    width: 100%;
-    height: 100%;
-
-}
-
 .pr-banner {
     padding: 30px;
     background: #daf4ff;
-    border-radius: 12px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     gap: 24px;
-    height: 100%;
     justify-content: space-between;
 }
 
@@ -1167,7 +1159,7 @@ nav {
 }
 
 .blog_share_link {
-    padding-bottom: 30px;
+    padding: 0 !important;
     display: flex;
     flex-wrap: wrap;
 }
@@ -1504,10 +1496,14 @@ input::-webkit-inner-spin-button {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .loaction_block img{
     width: 30px;
     object-fit: contain;
+}
+#hiddenLink{
+    display: none;
 }
 .about-inner{
     background-color: #396393;
@@ -1840,18 +1836,16 @@ input::-webkit-inner-spin-button {
     padding-bottom: 30px;
 }
 .size-guide table tr{
-    width: 20%;
+    width: 100%;
     text-align: center;
 }
 .size-guide table tr:nth-child(1) td{
     font-weight: 600;
     padding-bottom: 20px;
 }
-.backorder{
-    color: #e4573d;
-}
-.in-stock{
-    color: #1c9c4e;
+.size-guide table tr td{
+    width: 25%;
+    padding-bottom: 15px;
 }
 .addToCartBtnGroup{
     padding: 20px 0 15px;
@@ -1861,14 +1855,12 @@ input::-webkit-inner-spin-button {
     margin-bottom: 40px;
 }
 .quantity_selector-btn{
-    margin-top: 10px;
+    width: 80px;
     border-radius: 25px;
     padding: 5px 6px;
-    background-color: #ffffff;
     display: flex;
     justify-content: center;
     border: 1px solid #c5c5c5;
-    margin-bottom: 10px;
 }
 .quantity_selector-btn .quantity_selector {
     font-size: 14px;
@@ -2177,6 +2169,9 @@ footer {
 @media only screen and (max-width: 768px) {
     .section-space2 {
         padding: 70px 0;
+    }
+    .mbl_num_txt{
+        display: none;
     }
     .logo {
         width: 120px;

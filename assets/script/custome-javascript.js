@@ -28,6 +28,14 @@ $(document).ready(function() {
   });
 });
 
+const locationDiv = document.getElementById('locationDiv');
+const hiddenLink = document.getElementById('hiddenLink');
+
+locationDiv.addEventListener('click', function() {
+  hiddenLink.click();
+});
+
+
 function printBtn(){
   print();
 }
