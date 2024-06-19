@@ -83,6 +83,10 @@ var saleSlider = new Swiper(".sale-slider", {
          prevEl: ".sale-button-prev",
     },
     breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
       425: {
         slidesPerView: 2
       },
