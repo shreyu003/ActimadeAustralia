@@ -53,6 +53,9 @@ body {
 .w-100 {
     width: 100%;
 }
+.h-100{
+    height: 100%;
+}
 .container {
     width: 90%;
     max-width: 1510px;
@@ -105,7 +108,9 @@ a {
 .py-3 {
     padding: 30px 0;
 }
-
+.py-4 {
+    padding: 40px 0;
+}
 .py-2 {
     padding: 20px 0;
 }
@@ -117,7 +122,9 @@ a {
 .px-1 {
     padding: 0 15px;
 }
-
+.px-5{
+    padding: 0 50px;
+}
 .pe-1 {
     padding-right: 15px;
 }
@@ -1401,6 +1408,7 @@ input::-webkit-inner-spin-button {
     padding: 6px 25px;
     line-height: 25px;
     font-weight: 600;
+    color: #000;
 }
 
 .cln-heading {
@@ -1874,10 +1882,8 @@ footer {
     }
 }
 .cart_product-block{
-    padding: 20px;
-    border: 1px solid #c5c5c5;
+    padding: 10px 20px;
     margin-bottom: 20px;
-    background-color: #fff;
     border-radius: 15px;
 }
 .cart_product-block ul{
@@ -1890,8 +1896,9 @@ footer {
     box-shadow: 0 0 0 0 #fff;
 }
 .cart-prd-img{
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
+    background-color: #fff;
 }
 .cart-prd-img img{
     width: 100%;
@@ -1904,6 +1911,20 @@ footer {
     margin: auto;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.cart_qty_selector{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.increament-btn{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 50%;
 }
 .cart-shipping_block{
     width: 85%;
@@ -1942,6 +1963,26 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+.border-before-left::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 3px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #f69708;
+}
+.contact_form_block{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+
+
+
+
 
 @media screen and (max-width: 1024px) {
     .logo {
