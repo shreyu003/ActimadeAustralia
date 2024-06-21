@@ -11,148 +11,170 @@
 
     <div id="header"></div>
     
-    <div class="section-space2 bg-light">
+    <div class="section-space2">
         <div class="container">
             <div class="row pb-6">
                 <div class="col-12 text-center">
                     <h1> Your Cart </h1>
                 </div>
             </div>
-            <div class="row" id="mainCartBlock">
-                <div class="col-8">
+            <div class="row main_cart_block" id="mainCartBlock">
+                <div class="col-8 w-md-100">
                     <div class="row">
                         <div class="col-12">
                             <h2 class="pb-1"> Shoping Bag </h2>
                             <p> <span id="count_items-cart"> <b> 2 items </b> </span> in your bag. </p>
                         </div>
                     </div>
-                    <div class="row pt-4" id="cartProductWrapper">
-                        <div class="w-100 cart_product-block">
-                            <ul>
-                                <li>
+                    <div class="row cart_product_wrapper" id="cartProductWrapper">
+                        <div class="col-12 pb-3 d-sm-none">
+                            <div class="row px-1">
+                                <div class="col-4">
+                                    <p> <b> Price </b> </p>
+                                </div>
+                                <div class="col-8">
+                                    <ul class="cart-other-detail">
+                                        <li>
+                                            <p> <b> Quantity </b> </p>
+                                        </li>
+                                        <li>
+                                            <p> <b> Totle </b> </p>
+                                        </li>
+                                        <li>
+                                            <p> <b> Remove </b> </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="cart_product-block w-100">
+                                <div class="col-2 d-flex align-items-center">
                                     <div class="cart-prd-img">
                                         <img src="./assets/Images/homepage/product_image/product-15.png" alt="cart_product">
                                     </div>
-                                </li>
-                                <li>
-                                    <h4 class="cart-prd-name"> Tourni-cot </h4>
-                                    <p> #564756 </p>
-                                </li>
-                                <li>
-                                    <div class="cart_qty_selector">
-                                        <div class="increament-btn">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
-                                                <path d="M6 12L18 12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
-                                        <input type="number" class="quantity_selector" value="1">
-                                        <div class="increament-btn">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24" fill="none">
-                                                <path d="M4 12H20M12 4V20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
+                                    <div class="px-1">
+                                        <h4> Tourni-cot </h4>
+                                        <p> #564756 </p>
                                     </div>
-                                </li>
-                                <li>
-                                    <p class="product-price"> AUD $55.00 </p> 
-                                </li>
-                                <li>
-                                    <svg width="35px" height="35px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)" id="closeCartProductBlock">
-                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                                        <g id="SVGRepo_iconCarrier"> 
-                                            <rect width="24" height="24" fill="#00000000"></rect>
-                                            <path d="M7 17L16.8995 7.10051" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
-                                            <path d="M7 7.00001L16.8995 16.8995" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
-                                        </g>
-                                    </svg>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="w-100 cart_product-block">
-                            <ul>
-                                <li>
+                                </div>
+                                <div class="col-10 ">
+                                    <ul class="cart-other-detail h-100">
+                                        <li>
+                                            <div class="quantity_selector-btn">
+                                                <input type="number" class="quantity_selector" value="0">
+                                                <div class="arrow-group">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 14 7" fill="none">
+                                                        <path d="M14 7H0L7 0L14 7Z" fill="#696969"/>
+                                                    </svg>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 14 8" fill="none">
+                                                        <path d="M14 0.199997H0L7 7.2L14 0.199997Z" fill="#696969"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="product-price"> $55.00 </p> 
+                                        </li>
+                                        <li>
+                                            <svg width="35px" height="35px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)" id="closeCartProductBlock">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                                <g id="SVGRepo_iconCarrier"> 
+                                                    <rect width="24" height="24" fill="#00000000"></rect>
+                                                    <path d="M7 17L16.8995 7.10051" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
+                                                    <path d="M7 7.00001L16.8995 16.8995" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
+                                                </g>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cart_product-block w-100">
+                                <div class="col-4 d-flex align-items-center">
+                                    <div class="cart-prd-img">
+                                        <img src="./assets/Images/homepage/product_image/product-12.png" alt="cart_product">
+                                    </div>
+                                    <div class="px-1">
+                                        <h4> Tourni-cot </h4>
+                                        <p> #564756 </p>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <ul class="cart-other-detail h-100">
+                                        <li>
+                                            <div class="quantity_selector-btn">
+                                                <input type="number" class="quantity_selector" value="0">
+                                                <div class="arrow-group">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 14 7" fill="none">
+                                                        <path d="M14 7H0L7 0L14 7Z" fill="#696969"/>
+                                                    </svg>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 14 8" fill="none">
+                                                        <path d="M14 0.199997H0L7 7.2L14 0.199997Z" fill="#696969"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="product-price"> $55.00 </p> 
+                                        </li>
+                                        <li>
+                                            <svg width="35px" height="35px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)" id="closeCartProductBlock">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                                <g id="SVGRepo_iconCarrier"> 
+                                                    <rect width="24" height="24" fill="#00000000"></rect>
+                                                    <path d="M7 17L16.8995 7.10051" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
+                                                    <path d="M7 7.00001L16.8995 16.8995" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
+                                                </g>
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cart_product-block w-100">
+                                <div class="col-4 d-flex align-items-center">
                                     <div class="cart-prd-img">
                                         <img src="./assets/Images/homepage/product_image/product-16.png" alt="cart_product">
                                     </div>
-                                </li>
-                                <li>
-                                    <h4 class="cart-prd-name"> Baseline Retra </h4>
-                                    <p> #564756 </p>
-                                </li>
-                                <li>
-                                    <div class="cart_qty_selector">
-                                        <div class="increament-btn">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
-                                                <path d="M6 12L18 12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
-                                        <input type="number" class="quantity_selector" value="1">
-                                        <div class="increament-btn">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24" fill="none">
-                                                <path d="M4 12H20M12 4V20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
+                                    <div class="px-1">
+                                        <h4> Tourni-cot </h4>
+                                        <p> #564756 </p>
                                     </div>
-                                </li>
-                                <li>
-                                    <p class="product-price"> AUD $55.00 </p> 
-                                </li>
-                                <li>
-                                    <svg width="35px" height="35px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)" id="closeCartProductBlock">
-                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                                        <g id="SVGRepo_iconCarrier"> 
-                                            <rect width="24" height="24" fill="#00000000"></rect>
-                                            <path d="M7 17L16.8995 7.10051" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
-                                            <path d="M7 7.00001L16.8995 16.8995" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
-                                        </g>
-                                    </svg>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="w-100 cart_product-block">
-                            <ul>
-                                <li>
-                                    <div class="cart-prd-img">
-                                        <img src="./assets/Images/homepage/product_image/product-14.png" alt="cart_product">
-                                    </div>
-                                </li>
-                                <li>
-                                    <h4 class="cart-prd-name"> Omron Blood </h4>
-                                    <p> #564756 </p>
-                                </li>
-                                <li>
-                                    <div class="cart_qty_selector">
-                                        <div class="increament-btn">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
-                                                <path d="M6 12L18 12" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </div>
+                                <div class="col-8">
+                                    <ul class="cart-other-detail h-100">
+                                        <li>
+                                            <div class="quantity_selector-btn">
+                                                <input type="number" class="quantity_selector" value="0">
+                                                <div class="arrow-group">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 14 7" fill="none">
+                                                        <path d="M14 7H0L7 0L14 7Z" fill="#696969"/>
+                                                    </svg>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 14 8" fill="none">
+                                                        <path d="M14 0.199997H0L7 7.2L14 0.199997Z" fill="#696969"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="product-price"> $55.00 </p> 
+                                        </li>
+                                        <li>
+                                            <svg width="35px" height="35px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)" id="closeCartProductBlock">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                                <g id="SVGRepo_iconCarrier"> 
+                                                    <rect width="24" height="24" fill="#00000000"></rect>
+                                                    <path d="M7 17L16.8995 7.10051" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
+                                                    <path d="M7 7.00001L16.8995 16.8995" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
+                                                </g>
                                             </svg>
-                                        </div>
-                                        <input type="number" class="quantity_selector" value="1">
-                                        <div class="increament-btn">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 24 24" fill="none">
-                                                <path d="M4 12H20M12 4V20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p class="product-price"> AUD $55.00 </p> 
-                                </li>
-                                <li>
-                                    <svg width="35px" height="35px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)" id="closeCartProductBlock">
-                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                                        <g id="SVGRepo_iconCarrier"> 
-                                            <rect width="24" height="24" fill="#00000000"></rect>
-                                            <path d="M7 17L16.8995 7.10051" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
-                                            <path d="M7 7.00001L16.8995 16.8995" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
-                                        </g>
-                                    </svg>
-                                </li>
-                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 w-md-100">
                     <div class="row">
                         <div class="col-12">
                             <div class="cart-shipping_block">
